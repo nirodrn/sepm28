@@ -1,0 +1,5940 @@
+{
+  "batchHandovers": {
+    "-OZOibMRR_0esAAtLcRP": {
+      "batchId": "-OZOdiRyKM8tvxDYtSb0",
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "expiryDate": 1788609274200,
+      "handedOverBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "handedOverByName": "prod@detz.com",
+      "handoverDate": 1757073274463,
+      "notes": "Batch completed and ready for packing",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "qualityGrade": "A",
+      "quantity": 10,
+      "receiptNotes": "",
+      "receivedAt": 1757156922225,
+      "receivedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "receivedByName": "pk2@gmail.com",
+      "receivedByPacking": true,
+      "status": "received_by_packing",
+      "storageInstructions": "Store in cool, dry place",
+      "unit": "kg",
+      "updatedAt": 1757156922225
+    },
+    "-OZOq1Xxd8VzGrJJAZC2": {
+      "batchId": "-OZOmDveUGoRTPPuLZl7",
+      "batchNumber": "BATCH-PROD-2025-0004",
+      "expiryDate": 1788566400000,
+      "handedOverBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "handedOverByName": "prod@detz.com",
+      "handoverDate": 1757075220819,
+      "notes": "",
+      "productId": "-OZOixii7R2Gb725fbKQ",
+      "productName": "B oil",
+      "qualityGrade": "A",
+      "quantity": 20,
+      "receiptNotes": "",
+      "receivedAt": 1757156903215,
+      "receivedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "receivedByName": "pk2@gmail.com",
+      "receivedByPacking": true,
+      "status": "received_by_packing",
+      "storageInstructions": "Store in cool, dry place",
+      "unit": "L",
+      "updatedAt": 1757156903215
+    },
+    "-OZOqHYhihXR_umwNwwL": {
+      "batchId": "-OZOj6s6JKUMoCKYTKZN",
+      "batchNumber": "BATCH-PROD-2025-0003",
+      "expiryDate": 1788566400000,
+      "handedOverBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "handedOverByName": "prod@detz.com",
+      "handoverDate": 1757075286399,
+      "notes": "",
+      "productId": "-OZOixii7R2Gb725fbKQ",
+      "productName": "B oil",
+      "qualityGrade": "A",
+      "quantity": 20,
+      "receiptNotes": "Quick receive from dashboard",
+      "receivedAt": 1757153547478,
+      "receivedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "receivedByName": "pk2@gmail.com",
+      "receivedByPacking": true,
+      "status": "received_by_packing",
+      "storageInstructions": "Store in cool, dry place",
+      "unit": "L",
+      "updatedAt": 1757153547478
+    }
+  },
+  "disRefReqs": {
+    "QtbR9bTgy5efwyRX5AGQAu8yJFG3": {
+      "DISREF_1758582077741_lto22bd40": {
+        "createdAt": 1758582077741,
+        "distributorId": "QtbR9bTgy5efwyRX5AGQAu8yJFG3",
+        "id": "DISREF_1758582077741_lto22bd40",
+        "items": {
+          "prod001": {
+            "name": "M oil",
+            "qty": 1
+          }
+        },
+        "notes": "",
+        "priority": "normal",
+        "requestedBy": "J0xcMQTTAsRUDVAjlfLrhjJfQTD3",
+        "requestedByName": "Distributor Representatives",
+        "requestedByRole": "DistributorRepresentative",
+        "status": "pending",
+        "updatedAt": 1758582077741
+      }
+    },
+    "distributor01": {
+      "DISREF_1758574322024_cw9cnuj6o": {
+        "createdAt": 1758574322024,
+        "distributorId": "distributor01",
+        "id": "DISREF_1758574322024_cw9cnuj6o",
+        "items": {
+          "prod001": {
+            "name": "M oil",
+            "qty": 1
+          }
+        },
+        "notes": "",
+        "priority": "urgent",
+        "requestedBy": "J0xcMQTTAsRUDVAjlfLrhjJfQTD3",
+        "requestedByName": "Distributor Representatives",
+        "requestedByRole": "DistributorRepresentative",
+        "status": "pending",
+        "updatedAt": 1758574322024
+      }
+    }
+  },
+  "distributorReqs": {
+    "-O_nK6x6PLCRbsMf_cV7": {
+      "createdAt": 1758576543315,
+      "id": "-O_nK6x6PLCRbsMf_cV7",
+      "items": {
+        "prod001": {
+          "name": "M oil",
+          "qty": 1
+        }
+      },
+      "notes": "",
+      "priority": "urgent",
+      "requestedBy": "QtbR9bTgy5efwyRX5AGQAu8yJFG3",
+      "requestedByName": "dist1",
+      "requestedByRole": "Distributor",
+      "status": "Approved",
+      "updatedAt": 1758984554824
+    },
+    "DR_1758574011866_xf3vo4y4v": {
+      "status": "Approved",
+      "updatedAt": 1758986810264
+    }
+  },
+  "drreqs": {
+    "DR_1758574011866_xf3vo4y4v": {
+      "createdAt": 1758574011866,
+      "id": "DR_1758574011866_xf3vo4y4v",
+      "items": {
+        "prod001": {
+          "name": "M oil",
+          "qty": 1
+        }
+      },
+      "notes": "",
+      "priority": "urgent",
+      "requestedBy": "yFiv4iOUIpNtKCCRK1iRmkvoge53",
+      "requestedByName": "Direct Representative",
+      "requestedByRole": "DirectRepresentative",
+      "status": "Approved",
+      "updatedAt": 1758986978253
+    }
+  },
+  "dsreqs": {
+    "270925-2087-q1": {
+      "date": "2025-09-27T15:39:49.618Z",
+      "id": "270925-2087-q1",
+      "notes": "",
+      "product": "M oil - q1",
+      "quantity": 1,
+      "requestedBy": "bolkj77UKgU6dDJg3IT45ZB83vg2",
+      "requestedByName": "directshop",
+      "status": "Approved",
+      "updatedAt": 1758988184457,
+      "urgent": true
+    }
+  },
+  "fgDispatches": {
+    "-O_ky5R4ittmpPsuZEML": {
+      "claimNotes": "",
+      "claimedAt": 1758537028917,
+      "claimedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "claimedByFG": true,
+      "claimedByName": "fg@detz.com",
+      "createdAt": 1758536952633,
+      "destination": "finished_goods_store",
+      "dispatchType": "bulk",
+      "dispatchedAt": 1758536952633,
+      "dispatchedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "dispatchedByName": "pk2@gmail.com",
+      "items": [
+        {
+          "batchNumber": "BATCH-PROD-2025-0002",
+          "expiryDate": 1788609274200,
+          "productId": "-OZNw27pXcB5BJFTv7Na",
+          "productName": "M oil",
+          "qualityGrade": "A",
+          "quantity": 9,
+          "sourceLocation": "A1",
+          "stockId": "-OZThhOVyeFQdx45OovE",
+          "unit": "kg"
+        }
+      ],
+      "notes": "ews",
+      "releaseCode": "2509221559L4VQQE",
+      "status": "claimed",
+      "storageLocation": "FG-A1",
+      "totalItems": 1,
+      "totalQuantity": 9,
+      "updatedAt": 1758537028917
+    }
+  },
+  "fgInventoryMovements": {
+    "-OZYIJOCugQzgF7FsDxr": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757233890468,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "createdByName": "fg@detz.com",
+      "location": "FG01",
+      "originalLocation": "FG-A1",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "quantity": 10,
+      "reason": "Split 1/2 to FG01. Original location",
+      "type": "split"
+    },
+    "-OZYIkMuu6cUCLmrZYrx": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757234005073,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "createdByName": "fg@detz.com",
+      "location": "FG01",
+      "originalLocation": "FG01",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "quantity": 5,
+      "reason": "Split 1/2 to FG01. Original location",
+      "type": "split"
+    },
+    "-OZYIkUKAzZJljyYryNw": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757234005548,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "createdByName": "fg@detz.com",
+      "location": "A02",
+      "originalLocation": "FG01",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "quantity": 5,
+      "reason": "Split 2/2 to A02. N",
+      "type": "split"
+    },
+    "-O_kyOEjZe36WV-DCbjJ": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1758537029667,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "createdByName": "fg@detz.com",
+      "dispatchId": "-O_ky5R4ittmpPsuZEML",
+      "dispatchType": "bulk",
+      "location": "FG-A1",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "quantity": 9,
+      "reason": "Received from Packing Area - Release Code: 2509221559L4VQQE",
+      "releaseCode": "2509221559L4VQQE",
+      "type": "in"
+    }
+  },
+  "fgPackagedInventoryMovements": {
+    "-OZWEky6TLO2fgJGVy38": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757199403808,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "createdByName": "fg@detz.com",
+      "dispatchId": "-OZW4obbbz98zlXO2d-0",
+      "location": "FG-A1",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "reason": "Received packaged units from Packing Area - Release Code: 2509070343RXG8XC",
+      "releaseCode": "2509070343RXG8XC",
+      "type": "in",
+      "units": 10,
+      "variantName": "q1"
+    }
+  },
+  "fgStorageLocations": {
+    "-OZYGxO-qfSJXrlyVwPL": {
+      "capacity": 500,
+      "code": "FG01",
+      "createdAt": 1757233534105,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "description": "",
+      "name": "deck1",
+      "status": "active",
+      "temperature": "ambient",
+      "updatedAt": 1757233534104,
+      "updatedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1"
+    },
+    "-OZYI_V6SG0mu48q9wMI": {
+      "capacity": 500,
+      "code": "A02",
+      "createdAt": 1757233960542,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "description": "",
+      "name": "dec2",
+      "status": "active",
+      "temperature": "ambient",
+      "updatedAt": 1757233960542,
+      "updatedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1"
+    }
+  },
+  "fgUnitDispatches": {
+    "-OZW4obbbz98zlXO2d-0": {
+      "claimNotes": "",
+      "claimedAt": 1757199403059,
+      "claimedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "claimedByFG": true,
+      "claimedByName": "fg@detz.com",
+      "createdAt": 1757196797302,
+      "destination": "finished_goods_store",
+      "dispatchType": "packaged_units",
+      "dispatchedAt": 1757196797302,
+      "dispatchedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "dispatchedByName": "pk2@gmail.com",
+      "items": [
+        {
+          "batchNumber": "BATCH-PROD-2025-0002",
+          "expiryDate": 1788609274200,
+          "packagedProductId": "-OZW4h6OfRlB7sEVGa_0",
+          "productId": "-OZNw27pXcB5BJFTv7Na",
+          "productName": "M oil",
+          "qualityGrade": "A",
+          "sourceLocation": "PACK-FINISHED",
+          "unitsToExport": 10,
+          "variantName": "q1",
+          "variantSize": 10,
+          "variantUnit": "g"
+        }
+      ],
+      "notes": "",
+      "releaseCode": "2509070343RXG8XC",
+      "status": "claimed",
+      "storageLocation": "FG-A1",
+      "totalUnits": 10,
+      "totalVariants": 1,
+      "updatedAt": 1757199403059
+    }
+  },
+  "finishedGoodsInventory": {
+    "-OZNw27pXcB5BJFTv7Na_BATCH-PROD-2025-0002": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1758537029418,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "dispatchId": "-O_ky5R4ittmpPsuZEML",
+      "dispatchType": "bulk",
+      "expiryDate": 1788609274200,
+      "location": "FG-A1",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "qualityGrade": "A",
+      "quantity": 9,
+      "receivedFrom": "packing_area",
+      "releaseCode": "2509221559L4VQQE",
+      "unit": "kg"
+    }
+  },
+  "finishedGoodsPackagedInventory": {
+    "-OZYIkJAbIDSDhjvs8V2": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757234004834,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "dispatchId": "-OZW4obbbz98zlXO2d-0",
+      "dispatchType": "units",
+      "expiryDate": 1788609274200,
+      "location": "FG01",
+      "price": 100,
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "qualityGrade": "A",
+      "receivedFrom": "packing_area",
+      "releaseCode": "2509070343RXG8XC",
+      "splitFrom": "-OZYIJKTOfIS6UjiPuLf",
+      "splitIndex": 1,
+      "splitNotes": "Original location",
+      "type": "units",
+      "unitsInStock": 5,
+      "variantName": "q1",
+      "variantSize": 10,
+      "variantUnit": "g"
+    },
+    "-OZYIkQc62SProcPeDhr": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757234005311,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "dispatchId": "-OZW4obbbz98zlXO2d-0",
+      "dispatchType": "units",
+      "expiryDate": 1788609274200,
+      "location": "A02",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "qualityGrade": "A",
+      "receivedFrom": "packing_area",
+      "releaseCode": "2509070343RXG8XC",
+      "splitFrom": "-OZYIJKTOfIS6UjiPuLf",
+      "splitIndex": 2,
+      "splitNotes": "N",
+      "type": "units",
+      "unitsInStock": 5,
+      "variantName": "q1",
+      "variantSize": 10,
+      "variantUnit": "g"
+    }
+  },
+  "goodsReceipts": {
+    "-OZIlEPLd-6h5qDKxDI-": {
+      "createdAt": 1756973299483,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "deliveryDate": "2025-09-04",
+      "grnNumber": "GRN20250001",
+      "items": [
+        {
+          "condition": "good",
+          "deliveredQty": 100,
+          "deliveredQuantity": 100,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "materialType": "material",
+          "orderedQuantity": 100,
+          "qcRemarks": "",
+          "qualityGrade": "A",
+          "totalPrice": 10000,
+          "unit": "kg",
+          "unitPrice": 100
+        }
+      ],
+      "poId": "-OZIl4elzl8_HjE7huAL",
+      "poNumber": "PO-E7huAL",
+      "qcApprovedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "qcCompletedAt": 1756973307958,
+      "remarks": "",
+      "status": "qc_passed",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalAmount": 10000,
+      "updatedAt": 1756973307959,
+      "updatedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1"
+    },
+    "-OZIlvypz5E7hZK3ysuX": {
+      "createdAt": 1756973482039,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "deliveryDate": "2025-09-04",
+      "grnNumber": "GRN20250002",
+      "items": [
+        {
+          "condition": "good",
+          "deliveredQty": 100,
+          "deliveredQuantity": 100,
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "materialType": "material",
+          "orderedQuantity": 100,
+          "qcRemarks": "",
+          "qualityGrade": "A",
+          "totalPrice": 52000,
+          "unit": "L",
+          "unitPrice": 520
+        }
+      ],
+      "poId": "-OZIlsBFe00o-xyHVMlK",
+      "poNumber": "PO-yHVMlK",
+      "qcApprovedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "qcCompletedAt": 1756973489664,
+      "remarks": "",
+      "status": "qc_passed",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalAmount": 52000,
+      "updatedAt": 1756973489664,
+      "updatedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1"
+    },
+    "-OZImTWrY0iBv63kZ1kP": {
+      "createdAt": 1756973623545,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "deliveryDate": "2025-09-04",
+      "grnNumber": "GRN20250003",
+      "items": [
+        {
+          "condition": "good",
+          "deliveredQty": 100,
+          "deliveredQuantity": 100,
+          "materialId": "pm002",
+          "materialName": "Bubble Wrap Rolls",
+          "materialType": "packing_material",
+          "orderedQuantity": 100,
+          "qcRemarks": "AS",
+          "qualityGrade": "A",
+          "totalPrice": 1000,
+          "unit": "rolls",
+          "unitPrice": 10
+        }
+      ],
+      "poId": "-OZImKTONUEQ2DiS4o86",
+      "poNumber": "PO-iS4o86",
+      "qcApprovedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "qcCompletedAt": 1756973634955,
+      "remarks": "",
+      "status": "qc_passed",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalAmount": 1000,
+      "updatedAt": 1756973634955,
+      "updatedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1"
+    },
+    "-OZJ1MysMPY-AZXQtj1V": {
+      "createdAt": 1756977791035,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "deliveryDate": "2025-09-04",
+      "grnNumber": "GRN20250004",
+      "items": [
+        {
+          "condition": "good",
+          "deliveredQty": 120,
+          "deliveredQuantity": 120,
+          "materialId": "pm002",
+          "materialName": "Bubble Wrap Rolls",
+          "materialType": "packing_material",
+          "orderedQuantity": 120,
+          "qcRemarks": "",
+          "qualityGrade": "A",
+          "totalPrice": 12000,
+          "unit": "rolls",
+          "unitPrice": 100
+        }
+      ],
+      "poId": "-OZJ1BVJNlKxlXytkTtk",
+      "poNumber": "PO-ytkTtk",
+      "qcApprovedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "qcCompletedAt": 1756977797469,
+      "remarks": "",
+      "status": "qc_passed",
+      "stockUpdatePending": true,
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalAmount": 12000,
+      "updatedAt": 1756977797469,
+      "updatedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1"
+    },
+    "-O_RTaDdN2LTtdetDQRx": {
+      "createdAt": 1758193149698,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "deliveryDate": "2025-09-18",
+      "grnNumber": "GRN20250005",
+      "invoiceId": "-O_RUg1Octlr8Ln9J8A9",
+      "invoiceNumber": "INV20250005",
+      "invoicedAt": 1758193436149,
+      "items": [
+        {
+          "condition": "good",
+          "deliveredQty": 90,
+          "deliveredQuantity": 90,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "materialType": "material",
+          "orderedQuantity": 90,
+          "qcRemarks": "",
+          "qualityGrade": "A",
+          "totalPrice": 22500,
+          "unit": "kg",
+          "unitPrice": 250
+        }
+      ],
+      "poId": "-O_RSjgd4-XGmYj1RXCC",
+      "poNumber": "PO-j1RXCC",
+      "qcApprovedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "qcCompletedAt": 1758193204298,
+      "remarks": "",
+      "status": "invoiced",
+      "stockUpdatePending": true,
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalAmount": 22500,
+      "updatedAt": 1758193436149,
+      "updatedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1"
+    }
+  },
+  "invoices": {
+    "-OZIlGzufyR-e1_i3JcF": {
+      "createdAt": 1756973310079,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "currency": "LKR",
+      "dueDate": 1759565309813,
+      "grnId": "-OZIlEPLd-6h5qDKxDI-",
+      "grnNumber": "GRN20250001",
+      "invoiceDate": 1756973309813,
+      "invoiceNumber": "INV20250001",
+      "invoiceType": "grn_based",
+      "items": [
+        {
+          "batchNumber": "GRN20250001",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "materialType": "material",
+          "qualityGrade": "A",
+          "quantity": 100,
+          "total": 10000,
+          "unit": "kg",
+          "unitPrice": 100
+        }
+      ],
+      "lastPaymentAmount": 11000,
+      "lastPaymentDate": 1756944000000,
+      "lastPaymentMethod": "cash",
+      "lastPaymentNotes": "",
+      "lastPaymentReference": "PAY20250001",
+      "notes": "Invoice generated from GRN GRN20250001",
+      "paymentStatus": "paid",
+      "poId": "-OZIl4elzl8_HjE7huAL",
+      "poNumber": "PO-E7huAL",
+      "remainingAmount": 0,
+      "status": "verified",
+      "subtotal": 10000,
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "tax": 1000,
+      "terms": "Net 30 days",
+      "total": 11000,
+      "totalPaid": 11000,
+      "updatedAt": 1756973368696
+    },
+    "-OZIlyHf3w0jmtfBSFn6": {
+      "createdAt": 1756973491501,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "currency": "LKR",
+      "dueDate": 1759565491239,
+      "grnId": "-OZIlvypz5E7hZK3ysuX",
+      "grnNumber": "GRN20250002",
+      "invoiceDate": 1756973491239,
+      "invoiceNumber": "INV20250002",
+      "invoiceType": "grn_based",
+      "items": [
+        {
+          "batchNumber": "GRN20250002",
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "materialType": "material",
+          "qualityGrade": "A",
+          "quantity": 100,
+          "total": 52000,
+          "unit": "L",
+          "unitPrice": 520
+        }
+      ],
+      "lastPaymentAmount": 57200,
+      "lastPaymentDate": 1756944000000,
+      "lastPaymentMethod": "card",
+      "lastPaymentNotes": "",
+      "lastPaymentReference": "PAY20250002",
+      "notes": "Invoice generated from GRN GRN20250002",
+      "paymentStatus": "paid",
+      "poId": "-OZIlsBFe00o-xyHVMlK",
+      "poNumber": "PO-yHVMlK",
+      "remainingAmount": 0,
+      "status": "verified",
+      "subtotal": 52000,
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "tax": 5200,
+      "terms": "Net 30 days",
+      "total": 57200,
+      "totalPaid": 57200,
+      "updatedAt": 1756973690446
+    },
+    "-OZImWksjw1IEjlSWt1g": {
+      "createdAt": 1756973636794,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "currency": "LKR",
+      "dueDate": 1759565636531,
+      "grnId": "-OZImTWrY0iBv63kZ1kP",
+      "grnNumber": "GRN20250003",
+      "invoiceDate": 1756973636531,
+      "invoiceNumber": "INV20250003",
+      "invoiceType": "grn_based",
+      "items": [
+        {
+          "batchNumber": "GRN20250003",
+          "materialId": "pm002",
+          "materialName": "Bubble Wrap Rolls",
+          "materialType": "packing_material",
+          "qualityGrade": "A",
+          "quantity": 100,
+          "total": 1000,
+          "unit": "rolls",
+          "unitPrice": 10
+        }
+      ],
+      "notes": "Invoice generated from GRN GRN20250003",
+      "paymentStatus": "pending",
+      "poId": "-OZImKTONUEQ2DiS4o86",
+      "poNumber": "PO-iS4o86",
+      "remainingAmount": 1100,
+      "status": "verified",
+      "subtotal": 1000,
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "tax": 100,
+      "terms": "Net 30 days",
+      "total": 1100,
+      "totalPaid": 0,
+      "updatedAt": 1756973636794
+    },
+    "-O_RTo745PoxZTuWZ_ql": {
+      "createdAt": 1758193206622,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "currency": "LKR",
+      "dueDate": 1760785206353,
+      "grnId": "-O_RTaDdN2LTtdetDQRx",
+      "grnNumber": "GRN20250005",
+      "invoiceDate": 1758193206352,
+      "invoiceNumber": "INV20250004",
+      "invoiceType": "grn_based",
+      "items": [
+        {
+          "batchNumber": "GRN20250005",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "materialType": "material",
+          "qualityGrade": "A",
+          "quantity": 90,
+          "total": 22500,
+          "unit": "kg",
+          "unitPrice": 250
+        }
+      ],
+      "notes": "Invoice generated from GRN GRN20250005",
+      "paymentStatus": "pending",
+      "poId": "-O_RSjgd4-XGmYj1RXCC",
+      "poNumber": "PO-j1RXCC",
+      "remainingAmount": 24750,
+      "status": "verified",
+      "subtotal": 22500,
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "tax": 2250,
+      "terms": "Net 30 days",
+      "total": 24750,
+      "totalPaid": 0,
+      "updatedAt": 1758193206622
+    },
+    "-O_RUg1Octlr8Ln9J8A9": {
+      "createdAt": 1758193435633,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "currency": "LKR",
+      "discount": 0,
+      "dueDate": 1760785435374,
+      "grnId": "-O_RTaDdN2LTtdetDQRx",
+      "grnNumber": "GRN20250005",
+      "invoiceDate": 1758193435374,
+      "invoiceNumber": "INV20250005",
+      "invoiceType": "grn_based",
+      "items": [
+        {
+          "batchNumber": "GRN20250005",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "materialType": "material",
+          "qualityGrade": "A",
+          "quantity": 90,
+          "total": 22500,
+          "unit": "kg",
+          "unitPrice": 250
+        }
+      ],
+      "lastPaymentAmount": 24750,
+      "lastPaymentDate": 1758153600000,
+      "lastPaymentMethod": "card",
+      "lastPaymentNotes": "",
+      "lastPaymentReference": "21234e223",
+      "notes": "Invoice generated from GRN GRN20250005",
+      "paymentStatus": "paid",
+      "paymentTerms": "Net 30",
+      "poId": "-O_RSjgd4-XGmYj1RXCC",
+      "poNumber": "PO-j1RXCC",
+      "remainingAmount": 0,
+      "status": "verified",
+      "subtotal": 22500,
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "tax": 2250,
+      "total": 24750,
+      "totalPaid": 24750,
+      "updatedAt": 1758193545523
+    }
+  },
+  "materialRequests": {
+    "-OZIkphGAY25HYzlBzIu": {
+      "allocatedAt": 1756973259841,
+      "createdAt": 1756973194198,
+      "finalApproval": true,
+      "forwardedAt": 1756973205297,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Quick approved by HO",
+      "hoApprovedAt": 1756973205297,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "items": [
+        {
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 100,
+          "reason": "",
+          "unit": "kg",
+          "urgency": "high"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1756973214331,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "notes": "",
+      "requestType": "rawMaterial",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "supplier_allocated",
+      "updatedAt": 1756973259841,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1756973205297,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1756973205297,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Quick approved by HO",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1756973214332,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1756973194198,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    },
+    "-OZIlcpjShmjNHot0w60": {
+      "allocatedAt": 1756973466777,
+      "createdAt": 1756973403633,
+      "finalApproval": true,
+      "forwardedAt": 1756973412234,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Quick approved by HO",
+      "hoApprovedAt": 1756973412234,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "items": [
+        {
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "quantity": 100,
+          "reason": "",
+          "unit": "L",
+          "urgency": "normal"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1756973418796,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "notes": "",
+      "requestType": "rawMaterial",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "supplier_allocated",
+      "updatedAt": 1756973466777,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1756973412234,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1756973412234,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Quick approved by HO",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1756973418796,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1756973403633,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    },
+    "-OZcISynreaJn5d9H8HL": {
+      "allocatedAt": 1757352899987,
+      "createdAt": 1757317814004,
+      "finalApproval": true,
+      "forwardedAt": 1757352830161,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Quick approved by HO",
+      "hoApprovedAt": 1757352830161,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "items": [
+        {
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "quantity": 10,
+          "reason": "",
+          "unit": "L",
+          "urgency": "high"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1757352846233,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "notes": "",
+      "requestType": "rawMaterial",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "supplier_allocated",
+      "updatedAt": 1757352899987,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1757352830162,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1757352830162,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Quick approved by HO",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1757352846233,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1757317814004,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    },
+    "-OZsOoCgVyTpk9g8gb3Z": {
+      "createdAt": 1757587916087,
+      "finalApproval": true,
+      "forwardedAt": 1757932239300,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Quick approved by HO",
+      "hoApprovedAt": 1757932239300,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "items": [
+        {
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 10,
+          "reason": "",
+          "unit": "kg",
+          "urgency": "low"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1757932271420,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "notes": "",
+      "requestType": "rawMaterial",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "md_approved",
+      "updatedAt": 1757932271420,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1757932239300,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1757932239300,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Quick approved by HO",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1757932271420,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1757587916087,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    },
+    "-OZsPlfu7QiZP_fj2BzC": {
+      "allocatedAt": 1757588320788,
+      "createdAt": 1757588167879,
+      "finalApproval": true,
+      "forwardedAt": 1757588218240,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Approved by Head of Operations and forwarded to MD",
+      "hoApprovedAt": 1757588218240,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "items": [
+        {
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 10,
+          "reason": "",
+          "unit": "kg",
+          "urgency": "urgent"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1757588255064,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "notes": "",
+      "requestType": "rawMaterial",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "supplier_allocated",
+      "updatedAt": 1757588320788,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1757588218240,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1757588218240,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Approved by Head of Operations and forwarded to MD",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1757588255064,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1757588167879,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    },
+    "-O_RRKBthILz62Uegz-4": {
+      "allocatedAt": 1758192926593,
+      "createdAt": 1758192555666,
+      "finalApproval": true,
+      "forwardedAt": 1758192623739,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Quick approved by HO",
+      "hoApprovedAt": 1758192623739,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "items": [
+        {
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 100,
+          "reason": "",
+          "unit": "kg",
+          "urgency": "normal"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1758192787074,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "notes": "",
+      "requestType": "rawMaterial",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "supplier_allocated",
+      "updatedAt": 1758192926593,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1758192623739,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1758192623739,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Quick approved by HO",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1758192787074,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1758192555666,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    }
+  },
+  "notifications": {
+    "5N98zjBWOfYoan2sZ4n932cWDgf1": {
+      "-OZIksjDFcQMYYl0JrFx": {
+        "createdAt": 1756973206611,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been approved by HO and forwarded to MD",
+        "readAt": 1758167642038,
+        "requestId": "-OZIkphGAY25HYzlBzIu",
+        "status": "read",
+        "type": "request_ho_approved"
+      },
+      "-OZIkuk6-QC9cl7j1ujW": {
+        "createdAt": 1756973214860,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been finally approved by MD",
+        "readAt": 1758167641757,
+        "requestId": "-OZIkphGAY25HYzlBzIu",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-OZIlgexEPbgb0inLA5b": {
+        "createdAt": 1756973419327,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been finally approved by MD",
+        "readAt": 1758167641489,
+        "requestId": "-OZIlcpjShmjNHot0w60",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-OZImAOe3Wn6N8jtD1jN": {
+        "createdAt": 1756973545196,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "100",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "Your packing material request has been approved by HO and forwarded to MD",
+        "readAt": 1758167641238,
+        "requestId": "-OZIm6daNyQs63HkGA_j",
+        "status": "read",
+        "type": "request_ho_approved"
+      },
+      "-OZImC2DQa_JN4jzmGhK": {
+        "createdAt": 1756973551952,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "100",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "Your packing material request has been finally approved by MD",
+        "readAt": 1758167640990,
+        "requestId": "-OZIm6daNyQs63HkGA_j",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-OZJ0wubspufSjxzvwVX": {
+        "createdAt": 1756977680169,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "120",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "Your packing material request has been approved by HO and forwarded to MD",
+        "readAt": 1758167640736,
+        "requestId": "-OZJ0lV-AFGijGVi_I4s",
+        "status": "read",
+        "type": "request_ho_approved"
+      },
+      "-OZJ1-GEBsccNbw6SBcU": {
+        "createdAt": 1756977693906,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "120",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "Your packing material request has been finally approved by MD",
+        "readAt": 1758167640486,
+        "requestId": "-OZJ0lV-AFGijGVi_I4s",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-OZO4hlZupPIderwXMFV": {
+        "createdAt": 1757062552541,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "16.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 16,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "4.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 4,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "readAt": 1758167640223,
+        "requestId": "-OZO4hcfBBqGkkdZu6go",
+        "status": "read",
+        "type": "production_raw_material_request"
+      },
+      "-OZOYJdPgnhdD3ZOce7l": {
+        "createdAt": 1757070313962,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 16,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 16,
+              "stockAfter": 234,
+              "stockBefore": 250,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 4,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 4,
+              "stockAfter": 197,
+              "stockBefore": 201,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZOYAoIkZ7RTETMfp9Q",
+        "message": "Production confirmed receipt of dispatched materials",
+        "readAt": 1758167639972,
+        "requestId": "-OZO4hcfBBqGkkdZu6go",
+        "status": "read",
+        "type": "production_receipt_confirmed"
+      },
+      "-OZOYkX392QZG18rcDUs": {
+        "createdAt": 1757070428181,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "enough!",
+              "unit": "kg",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "urgent"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "readAt": 1758167639720,
+        "requestId": "-OZOYkPEVHo9grOJVKO0",
+        "status": "read",
+        "type": "production_raw_material_request"
+      },
+      "-OZPcSCC9W7LZLDb58IP": {
+        "createdAt": 1757088436955,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "800.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 8,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "200.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 2,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "readAt": 1758167639470,
+        "requestId": "-OZPcS4Jhy_8NMZu222Y",
+        "status": "read",
+        "type": "production_raw_material_request"
+      },
+      "-OZPcslv5iUNKCcKX5hF": {
+        "createdAt": 1757088549899,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 8,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 8,
+              "stockAfter": 216,
+              "stockBefore": 224,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 2,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 2,
+              "stockAfter": 195,
+              "stockBefore": 197,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZPcaxORSqZIQalUuAq",
+        "message": "Production confirmed receipt of dispatched materials",
+        "readAt": 1758167639221,
+        "requestId": "-OZPcS4Jhy_8NMZu222Y",
+        "status": "read",
+        "type": "production_receipt_confirmed"
+      },
+      "-OZPcuW3m86_vgV6Li7d": {
+        "createdAt": 1757088557012,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 224,
+              "stockBefore": 234,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZOYoRO3m4at7ZvSaZB",
+        "message": "Production confirmed receipt of dispatched materials",
+        "readAt": 1758167638972,
+        "requestId": "-OZOYkPEVHo9grOJVKO0",
+        "status": "read",
+        "type": "production_receipt_confirmed"
+      },
+      "-OZPdC2S2G0oC3ecV2nj": {
+        "createdAt": 1757088632940,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "40.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 4,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "10.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 1,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "readAt": 1758167638719,
+        "requestId": "-OZPdBvca5uJlenKWnsn",
+        "status": "read",
+        "type": "production_raw_material_request"
+      },
+      "-OZPdVxNib8blxVA9LV8": {
+        "createdAt": 1757088714456,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 4,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 4,
+              "stockAfter": 212,
+              "stockBefore": 216,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 1,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 1,
+              "stockAfter": 194,
+              "stockBefore": 195,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZPdHc0VavWcVPRVBfd",
+        "message": "Production confirmed receipt of dispatched materials",
+        "readAt": 1758167638470,
+        "requestId": "-OZPdBvca5uJlenKWnsn",
+        "status": "read",
+        "type": "production_receipt_confirmed"
+      },
+      "-OZeO1o20uOkN8VPUi8X": {
+        "createdAt": 1757352831482,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been approved by HO and forwarded to MD",
+        "readAt": 1758167638220,
+        "requestId": "-OZcISynreaJn5d9H8HL",
+        "status": "read",
+        "type": "request_ho_approved"
+      },
+      "-OZeO5XlUm5TaD0GQA86": {
+        "createdAt": 1757352846759,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been finally approved by MD",
+        "readAt": 1758167637971,
+        "requestId": "-OZcISynreaJn5d9H8HL",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-OZsPyIOisyHFoC2SiuA": {
+        "createdAt": 1757588219559,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been approved by HO and forwarded to MD",
+        "readAt": 1758167637641,
+        "requestId": "-OZsPlfu7QiZP_fj2BzC",
+        "status": "read",
+        "type": "request_ho_approved"
+      },
+      "-OZsQ65WHQp_ub7y7vTt": {
+        "createdAt": 1757588255599,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been finally approved by MD",
+        "readAt": 1758167637267,
+        "requestId": "-OZsPlfu7QiZP_fj2BzC",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-O_BvJgJMQIEWOBOvol6": {
+        "createdAt": 1757932240519,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been approved by HO and forwarded to MD",
+        "readAt": 1758165073818,
+        "requestId": "-OZsOoCgVyTpk9g8gb3Z",
+        "status": "read",
+        "type": "request_ho_approved"
+      },
+      "-O_BvRLsiRryN0HnKHTY": {
+        "createdAt": 1757932271915,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been finally approved by MD",
+        "readAt": 1758145186307,
+        "requestId": "-OZsOoCgVyTpk9g8gb3Z",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-O_RRa6xovy5bl0znUTd": {
+        "createdAt": 1758192624982,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been approved by HO and forwarded to MD",
+        "requestId": "-O_RRKBthILz62Uegz-4",
+        "status": "unread",
+        "type": "request_ho_approved"
+      },
+      "-O_RSCoA47ydnj1bfl_x": {
+        "createdAt": 1758192787556,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Your material request has been finally approved by MD",
+        "requestId": "-O_RRKBthILz62Uegz-4",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-O_RYPlubQhTW9ObaBiM": {
+        "createdAt": 1758194413271,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "aa",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-O_kwEMS0YtVV8AipjVt": {
+        "createdAt": 1758536464667,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 472,
+              "stockBefore": 482,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-O_kwEqc6YzZwIkvi3mb": {
+        "createdAt": 1758536466656,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 472,
+              "stockBefore": 482,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-O_kwRXz-dWa5LuDf5ql": {
+        "createdAt": 1758536518651,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 20,
+              "reason": "q",
+              "unit": "L",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Chemical B",
+        "requestId": "-O_kwRQJA7KK6553NYss",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-O_kwlj-0l7veSOSNfk9": {
+        "createdAt": 1758536605435,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 20,
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "requestedQuantity": 20,
+              "stockAfter": 308,
+              "stockBefore": 328,
+              "unit": "L"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-O_kwZ_PwwKkhK5t63g1",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-O_kwRQJA7KK6553NYss",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      }
+    },
+    "BmSlQIhtS4glKvEq1WupVzaLt8p1": {
+      "-OZIksXvby1TkkaFiihH": {
+        "createdAt": 1756973205824,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZIkphGAY25HYzlBzIu",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-OZIlf3WH6oflc0CNGaD": {
+        "createdAt": 1756973412771,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZIlcpjShmjNHot0w60",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-OZImAC7k6gn3gECIvjB": {
+        "createdAt": 1756973544394,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "packingMaterial"
+        },
+        "message": "Packing material request forwarded for final approval",
+        "requestId": "-OZIm6daNyQs63HkGA_j",
+        "status": "unread",
+        "type": "packing_material_request_forwarded"
+      },
+      "-OZJ0wj6as-unicXoWnk": {
+        "createdAt": 1756977679434,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "packingMaterial"
+        },
+        "message": "Packing material request forwarded for final approval",
+        "requestId": "-OZJ0lV-AFGijGVi_I4s",
+        "status": "unread",
+        "type": "packing_material_request_forwarded"
+      },
+      "-OZeO1bmo7qzptD8ixRN": {
+        "createdAt": 1757352830697,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZcISynreaJn5d9H8HL",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-OZsPy63v1-VSOyPr2Vc": {
+        "createdAt": 1757588218770,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZsPlfu7QiZP_fj2BzC",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-O_BvJVuxatBw7bt06s7": {
+        "createdAt": 1757932239789,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZsOoCgVyTpk9g8gb3Z",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-O_RR_wQyWnkSzYOrhEq": {
+        "createdAt": 1758192624244,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-O_RRKBthILz62Uegz-4",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      }
+    },
+    "DeDtclFo9aazi65eR8K6ybD9QAq1": {
+      "-OZOYBMZcxGpUcg46QsZ": {
+        "createdAt": 1757070280303,
+        "data": {
+          "dispatchId": "-OZOYAoIkZ7RTETMfp9Q",
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 16,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 16,
+              "stockAfter": 234,
+              "stockBefore": 250,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 4,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 4,
+              "stockAfter": 197,
+              "stockBefore": 201,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "production_response",
+          "status": "dispatched"
+        },
+        "message": "Raw materials dispatched for your request",
+        "requestId": "-OZO4hcfBBqGkkdZu6go",
+        "status": "unread",
+        "type": "materials_dispatched"
+      },
+      "-OZOYonhcm7Q0R7ltRFc": {
+        "createdAt": 1757070445944,
+        "data": {
+          "dispatchId": "-OZOYoRO3m4at7ZvSaZB",
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 224,
+              "stockBefore": 234,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "production_response",
+          "status": "dispatched"
+        },
+        "message": "Raw materials dispatched for your request",
+        "requestId": "-OZOYkPEVHo9grOJVKO0",
+        "status": "unread",
+        "type": "materials_dispatched"
+      },
+      "-OZPcbVREd_bFjfH0IrC": {
+        "createdAt": 1757088479397,
+        "data": {
+          "dispatchId": "-OZPcaxORSqZIQalUuAq",
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 8,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 8,
+              "stockAfter": 216,
+              "stockBefore": 224,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 2,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 2,
+              "stockAfter": 195,
+              "stockBefore": 197,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "production_response",
+          "status": "dispatched"
+        },
+        "message": "Raw materials dispatched for your request",
+        "requestId": "-OZPcS4Jhy_8NMZu222Y",
+        "status": "unread",
+        "type": "materials_dispatched"
+      },
+      "-OZPdI9vwoUQ_fgvEk0q": {
+        "createdAt": 1757088658244,
+        "data": {
+          "dispatchId": "-OZPdHc0VavWcVPRVBfd",
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 4,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 4,
+              "stockAfter": 212,
+              "stockBefore": 216,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 1,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 1,
+              "stockAfter": 194,
+              "stockBefore": 195,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "production_response",
+          "status": "dispatched"
+        },
+        "message": "Raw materials dispatched for your request",
+        "requestId": "-OZPdBvca5uJlenKWnsn",
+        "status": "unread",
+        "type": "materials_dispatched"
+      },
+      "-O_RbLnjjygSmIJv3DAT": {
+        "createdAt": 1758195440279,
+        "data": {
+          "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 472,
+              "stockBefore": 482,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "production_response",
+          "status": "dispatched"
+        },
+        "message": "Raw materials dispatched for your request",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "materials_dispatched"
+      },
+      "-O_kwZwPXVQ5cUUNVjhz": {
+        "createdAt": 1758536553291,
+        "data": {
+          "dispatchId": "-O_kwZ_PwwKkhK5t63g1",
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 20,
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "requestedQuantity": 20,
+              "stockAfter": 308,
+              "stockBefore": 328,
+              "unit": "L"
+            }
+          ],
+          "requestType": "production_response",
+          "status": "dispatched"
+        },
+        "message": "Raw materials dispatched for your request",
+        "requestId": "-O_kwRQJA7KK6553NYss",
+        "status": "unread",
+        "type": "materials_dispatched"
+      }
+    },
+    "YwLQfqSBFmPkVrQUzdADRQpmmvi1": {
+      "-O_ky5jZ2Yqb8h717uxY": {
+        "createdAt": 1758536953630,
+        "data": {
+          "dispatchType": "packed_products",
+          "items": [
+            {
+              "batchNumber": "BATCH-PROD-2025-0002",
+              "expiryDate": 1788609274200,
+              "productId": "-OZNw27pXcB5BJFTv7Na",
+              "productName": "M oil",
+              "qualityGrade": "A",
+              "quantity": 9,
+              "sourceLocation": "A1",
+              "stockId": "-OZThhOVyeFQdx45OovE",
+              "unit": "kg"
+            }
+          ],
+          "releaseCode": "2509221559L4VQQE",
+          "totalQuantity": 9
+        },
+        "dispatchId": "-O_ky5R4ittmpPsuZEML",
+        "message": "New packed products ready for claiming: M oil",
+        "status": "unread",
+        "type": "fg_dispatch_ready"
+      }
+    },
+    "uid_fgstore01": {
+      "-OZW4ovsZV4zJZ_XzQ1f": {
+        "createdAt": 1757196798340,
+        "data": {
+          "dispatchType": "packaged_units",
+          "items": [
+            {
+              "batchNumber": "BATCH-PROD-2025-0002",
+              "expiryDate": 1788609274200,
+              "packagedProductId": "-OZW4h6OfRlB7sEVGa_0",
+              "productId": "-OZNw27pXcB5BJFTv7Na",
+              "productName": "M oil",
+              "qualityGrade": "A",
+              "sourceLocation": "PACK-FINISHED",
+              "unitsToExport": 10,
+              "variantName": "q1",
+              "variantSize": 10,
+              "variantUnit": "g"
+            }
+          ],
+          "releaseCode": "2509070343RXG8XC",
+          "totalUnits": 10,
+          "totalVariants": 1
+        },
+        "dispatchId": "-OZW4obbbz98zlXO2d-0",
+        "message": "New packaged products ready for claiming: 10 units across 1 variants",
+        "status": "unread",
+        "type": "fg_unit_dispatch"
+      },
+      "-O_ky5nUlie9r-9VoLMJ": {
+        "createdAt": 1758536953630,
+        "data": {
+          "dispatchType": "packed_products",
+          "items": [
+            {
+              "batchNumber": "BATCH-PROD-2025-0002",
+              "expiryDate": 1788609274200,
+              "productId": "-OZNw27pXcB5BJFTv7Na",
+              "productName": "M oil",
+              "qualityGrade": "A",
+              "quantity": 9,
+              "sourceLocation": "A1",
+              "stockId": "-OZThhOVyeFQdx45OovE",
+              "unit": "kg"
+            }
+          ],
+          "releaseCode": "2509221559L4VQQE",
+          "totalQuantity": 9
+        },
+        "dispatchId": "-O_ky5R4ittmpPsuZEML",
+        "message": "New packed products ready for claiming: M oil",
+        "status": "unread",
+        "type": "fg_dispatch_ready"
+      }
+    },
+    "uid_ho01": {
+      "-OZIkppU3ZdDN39cj8XV": {
+        "createdAt": 1756973194724,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 100,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZIkphGAY25HYzlBzIu",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZIlcy1PbuWoLCJrAYS": {
+        "createdAt": 1756973404164,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 100,
+              "reason": "",
+              "unit": "L",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZIlcpjShmjNHot0w60",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZIm6lsjTq_IIhW_hsX": {
+        "createdAt": 1756973530362,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "100",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "New packing material request from wr123@g.com",
+        "requestId": "-OZIm6daNyQs63HkGA_j",
+        "status": "unread",
+        "type": "packing_material_request"
+      },
+      "-OZJ0liXFdkQoKWyBV1w": {
+        "createdAt": 1756977634341,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "120",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "New packing material request from wr123@g.com",
+        "requestId": "-OZJ0lV-AFGijGVi_I4s",
+        "status": "unread",
+        "type": "packing_material_request"
+      },
+      "-OZO4hyqbg7Oq93vTqJS": {
+        "createdAt": 1757062553391,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "16.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 16,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "4.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 4,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZO4hcfBBqGkkdZu6go",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZOYki6jrk_0ptVCnbM": {
+        "createdAt": 1757070428952,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "enough!",
+              "unit": "kg",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZOYkPEVHo9grOJVKO0",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZPcSNt7GTID7DQxR5D": {
+        "createdAt": 1757088437705,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "800.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 8,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "200.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 2,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZPcS4Jhy_8NMZu222Y",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZPdCE5AgK3cBYisX7e": {
+        "createdAt": 1757088633686,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "40.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 4,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "10.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 1,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZPdBvca5uJlenKWnsn",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZcIT5fbun9XQkN2yCP": {
+        "createdAt": 1757317814508,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 10,
+              "reason": "",
+              "unit": "L",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZcISynreaJn5d9H8HL",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZsOoKvcQuv0Txfu19J": {
+        "createdAt": 1757587916617,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "low"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZsOoCgVyTpk9g8gb3Z",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZsPloEjs518vuEyO9O": {
+        "createdAt": 1757588168413,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZsPlfu7QiZP_fj2BzC",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-O_RRKJYvm2ogwNDSQrx": {
+        "createdAt": 1758192556156,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 100,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-O_RRKBthILz62Uegz-4",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-O_RYPy4Cfs-Omt7ytYv": {
+        "createdAt": 1758194414051,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "aa",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-O_kwRiUXpwD_fah79yQ": {
+        "createdAt": 1758536519383,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 20,
+              "reason": "q",
+              "unit": "L",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Chemical B",
+        "requestId": "-O_kwRQJA7KK6553NYss",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      }
+    },
+    "uid_md01": {
+      "-OZIksb1c8eat5HOE1TL": {
+        "createdAt": 1756973206087,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZIkphGAY25HYzlBzIu",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-OZIlf7cZNh2sO8E7_Lm": {
+        "createdAt": 1756973413034,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZIlcpjShmjNHot0w60",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-OZImAGQF2mhBw890t2I": {
+        "createdAt": 1756973544669,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "packingMaterial"
+        },
+        "message": "Packing material request forwarded for final approval",
+        "requestId": "-OZIm6daNyQs63HkGA_j",
+        "status": "unread",
+        "type": "packing_material_request_forwarded"
+      },
+      "-OZJ0wmvuBOqb_4O7eey": {
+        "createdAt": 1756977679678,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "packingMaterial"
+        },
+        "message": "Packing material request forwarded for final approval",
+        "requestId": "-OZJ0lV-AFGijGVi_I4s",
+        "status": "unread",
+        "type": "packing_material_request_forwarded"
+      },
+      "-OZeO1fry79tdtgyj-ef": {
+        "createdAt": 1757352830958,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZcISynreaJn5d9H8HL",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-OZsPyA9NWwR4rYMJnZQ": {
+        "createdAt": 1757588219032,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZsPlfu7QiZP_fj2BzC",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-O_BvJZiUd8aK9cqhIsW": {
+        "createdAt": 1757932240033,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-OZsOoCgVyTpk9g8gb3Z",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      },
+      "-O_RRa-Dp6IpWDPZmCw7": {
+        "createdAt": 1758192624487,
+        "data": {
+          "hoApprovedBy": "ho1@detz.com",
+          "requestType": "material"
+        },
+        "message": "Material request forwarded for final approval",
+        "requestId": "-O_RRKBthILz62Uegz-4",
+        "status": "unread",
+        "type": "material_request_forwarded"
+      }
+    },
+    "uid_warehouse01": {
+      "-OZO4hpyO6JPIyTiaK76": {
+        "createdAt": 1757062552541,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "16.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 16,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "4.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 4,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "requestId": "-OZO4hcfBBqGkkdZu6go",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-OZOYJhJL5OCcCL8jD9V": {
+        "createdAt": 1757070313962,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 16,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 16,
+              "stockAfter": 234,
+              "stockBefore": 250,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 4,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 4,
+              "stockAfter": 197,
+              "stockBefore": 201,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZOYAoIkZ7RTETMfp9Q",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-OZO4hcfBBqGkkdZu6go",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-OZOYkaJL39eXBCBXgmd": {
+        "createdAt": 1757070428181,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "enough!",
+              "unit": "kg",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "urgent"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "requestId": "-OZOYkPEVHo9grOJVKO0",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-OZPcSG5rMMNMFkuP0_Y": {
+        "createdAt": 1757088436955,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "800.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 8,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "200.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 2,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "requestId": "-OZPcS4Jhy_8NMZu222Y",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-OZPcspnuW_5P7usZF6F": {
+        "createdAt": 1757088549899,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 8,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 8,
+              "stockAfter": 216,
+              "stockBefore": 224,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 2,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 2,
+              "stockAfter": 195,
+              "stockBefore": 197,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZPcaxORSqZIQalUuAq",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-OZPcS4Jhy_8NMZu222Y",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-OZPcuZwsEQePGW6boxI": {
+        "createdAt": 1757088557012,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 224,
+              "stockBefore": 234,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZOYoRO3m4at7ZvSaZB",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-OZOYkPEVHo9grOJVKO0",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-OZPdC6KIauNoqZTDEv-": {
+        "createdAt": 1757088632940,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "40.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 4,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "10.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 1,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "requestId": "-OZPdBvca5uJlenKWnsn",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-OZPdW0E1WZb9V2YQZzq": {
+        "createdAt": 1757088714456,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 4,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 4,
+              "stockAfter": 212,
+              "stockBefore": 216,
+              "unit": "kg"
+            },
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 1,
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "requestedQuantity": 1,
+              "stockAfter": 194,
+              "stockBefore": 195,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-OZPdHc0VavWcVPRVBfd",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-OZPdBvca5uJlenKWnsn",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-O_RYPpgzS4dq0BFjkAQ": {
+        "createdAt": 1758194413271,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "aa",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Raw Material A",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-O_kwEQPAtZcAJwl4qPe": {
+        "createdAt": 1758536464667,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 472,
+              "stockBefore": 482,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-O_kwEuRcFaoXEnSkodf": {
+        "createdAt": 1758536466656,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 10,
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "requestedQuantity": 10,
+              "stockAfter": 472,
+              "stockBefore": 482,
+              "unit": "kg"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      },
+      "-O_kwRamFgoObflPSR-H": {
+        "createdAt": 1758536518651,
+        "data": {
+          "batchReference": "",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 20,
+              "reason": "q",
+              "unit": "L",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "production_direct",
+          "urgency": "normal"
+        },
+        "message": "New raw material request from Production: Chemical B",
+        "requestId": "-O_kwRQJA7KK6553NYss",
+        "status": "unread",
+        "type": "production_raw_material_request"
+      },
+      "-O_kwlmgLs0xtf6RfjGS": {
+        "createdAt": 1758536605435,
+        "data": {
+          "items": [
+            {
+              "batchNumber": "",
+              "dispatchedQuantity": 20,
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "requestedQuantity": 20,
+              "stockAfter": 308,
+              "stockBefore": 328,
+              "unit": "L"
+            }
+          ],
+          "requestType": "receipt_confirmation"
+        },
+        "dispatchId": "-O_kwZ_PwwKkhK5t63g1",
+        "message": "Production confirmed receipt of dispatched materials",
+        "requestId": "-O_kwRQJA7KK6553NYss",
+        "status": "unread",
+        "type": "production_receipt_confirmed"
+      }
+    },
+    "vYMCXCf59DMEDsG7BbQHdexPOK33": {
+      "-OZIkptdLTpfLfMMAbM4": {
+        "createdAt": 1756973194990,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 100,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZIkphGAY25HYzlBzIu",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZIkusLtz7BLRCfhpHg": {
+        "createdAt": 1756973215387,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Material request you forwarded has been approved by MD",
+        "requestId": "-OZIkphGAY25HYzlBzIu",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-OZIld19yRiegDKkM4-a": {
+        "createdAt": 1756973404428,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 100,
+              "reason": "",
+              "unit": "L",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZIlcpjShmjNHot0w60",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZIlgn9om16x4-jud82": {
+        "createdAt": 1756973419852,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Material request you forwarded has been approved by MD",
+        "requestId": "-OZIlcpjShmjNHot0w60",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-OZIm6pzfYPpM_vbarns": {
+        "createdAt": 1756973530625,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "100",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "New packing material request from wr123@g.com",
+        "requestId": "-OZIm6daNyQs63HkGA_j",
+        "status": "unread",
+        "type": "packing_material_request"
+      },
+      "-OZImCAUT2jlyL6i1mo1": {
+        "createdAt": 1756973552481,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "100",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "Packing material request you forwarded has been approved by MD",
+        "requestId": "-OZIm6daNyQs63HkGA_j",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-OZJ0lmK42jjljLuYt2P": {
+        "createdAt": 1756977634584,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "120",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "New packing material request from wr123@g.com",
+        "requestId": "-OZJ0lV-AFGijGVi_I4s",
+        "status": "unread",
+        "type": "packing_material_request"
+      },
+      "-OZJ1-NvT6NQHj-k-7ED": {
+        "createdAt": 1756977694398,
+        "data": {
+          "materials": [
+            {
+              "materialId": "pm002",
+              "materialName": "Bubble Wrap Rolls",
+              "requestedQuantity": "120",
+              "unit": "rolls",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "packingMaterial"
+        },
+        "message": "Packing material request you forwarded has been approved by MD",
+        "requestId": "-OZJ0lV-AFGijGVi_I4s",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-OZO4i2FvFtEEyBAD76w": {
+        "createdAt": 1757062553391,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "16.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 16,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "4.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 4,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZO4hcfBBqGkkdZu6go",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZOYkm-WpsXExsQtLgY": {
+        "createdAt": 1757070428952,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "enough!",
+              "unit": "kg",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZOYkPEVHo9grOJVKO0",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZPcSRl4DYWfmpnmFGK": {
+        "createdAt": 1757088437705,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "800.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 8,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "200.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 2,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZPcS4Jhy_8NMZu222Y",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZPdCHyN3e6tYtXDC5y": {
+        "createdAt": 1757088633686,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "calculatedQuantity": "40.00",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 4,
+              "quantityPerUnit": 4,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            },
+            {
+              "batchReference": "",
+              "calculatedQuantity": "10.00",
+              "materialId": "rm003",
+              "materialName": "Additive C",
+              "quantity": 1,
+              "quantityPerUnit": 1,
+              "reason": "Required for M oil production",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-OZPdBvca5uJlenKWnsn",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-OZcIT9S4SGX6Ra3b3XX": {
+        "createdAt": 1757317814750,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 10,
+              "reason": "",
+              "unit": "L",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZcISynreaJn5d9H8HL",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZeO5explGBV6y-E9sm": {
+        "createdAt": 1757352847284,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Material request you forwarded has been approved by MD",
+        "requestId": "-OZcISynreaJn5d9H8HL",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-OZsOoP-UZyCoLOXfq75": {
+        "createdAt": 1757587916878,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "low"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZsOoCgVyTpk9g8gb3Z",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZsPlsGCC7VOq2b472s": {
+        "createdAt": 1757588168671,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "urgent"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-OZsPlfu7QiZP_fj2BzC",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-OZsQ6Dl-uT0_tvujg5b": {
+        "createdAt": 1757588256127,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Material request you forwarded has been approved by MD",
+        "requestId": "-OZsPlfu7QiZP_fj2BzC",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-O_BvRTbfsTAOXSHx6d_": {
+        "createdAt": 1757932272410,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Material request you forwarded has been approved by MD",
+        "readAt": 1758143723781,
+        "requestId": "-OZsOoCgVyTpk9g8gb3Z",
+        "status": "read",
+        "type": "request_md_approved"
+      },
+      "-O_RRKNLrgYC68SpFJYD": {
+        "createdAt": 1758192556399,
+        "data": {
+          "items": [
+            {
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 100,
+              "reason": "",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "material"
+        },
+        "message": "New material request from wr123@g.com",
+        "requestId": "-O_RRKBthILz62Uegz-4",
+        "status": "unread",
+        "type": "material_request"
+      },
+      "-O_RSCvdOHmkWIHYiznm": {
+        "createdAt": 1758192788034,
+        "data": {
+          "requestType": "material"
+        },
+        "message": "Material request you forwarded has been approved by MD",
+        "requestId": "-O_RRKBthILz62Uegz-4",
+        "status": "unread",
+        "type": "request_md_approved"
+      },
+      "-O_RYQ0pTI4j9SgXrswg": {
+        "createdAt": 1758194414051,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm001",
+              "materialName": "Raw Material A",
+              "quantity": 10,
+              "reason": "aa",
+              "unit": "kg",
+              "urgency": "normal"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Raw Material A",
+        "requestId": "-O_RYPeMQb37DvUHFsOg",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      },
+      "-O_kwRmLIfxhxdD-3QGH": {
+        "createdAt": 1758536519383,
+        "data": {
+          "fromDepartment": "Production",
+          "items": [
+            {
+              "batchReference": "",
+              "materialId": "rm002",
+              "materialName": "Chemical B",
+              "quantity": 20,
+              "reason": "q",
+              "unit": "L",
+              "urgency": "high"
+            }
+          ],
+          "requestType": "production_monitoring",
+          "toDepartment": "Warehouse"
+        },
+        "message": "Production raw material request for monitoring: Chemical B",
+        "requestId": "-O_kwRQJA7KK6553NYss",
+        "status": "unread",
+        "type": "production_request_monitoring"
+      }
+    }
+  },
+  "packagedProducts": {
+    "-OZW4h6OfRlB7sEVGa_0": {
+      "availableForDispatch": true,
+      "batchId": "-OZOdiRyKM8tvxDYtSb0",
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "bulkQuantityUsed": 0.99,
+      "bulkUnit": "kg",
+      "createdAt": 1757196766567,
+      "expiryDate": 1788609274200,
+      "lastExported": 1757196797820,
+      "lastExportedQuantity": 10,
+      "location": "PACK-FINISHED",
+      "notes": "",
+      "packagedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "packagedByName": "pk2@gmail.com",
+      "packagingDate": 1757196766567,
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "qualityGrade": "A",
+      "status": "partially_exported",
+      "stockId": "-OZThhOVyeFQdx45OovE",
+      "unitsProduced": 89,
+      "updatedAt": 1757196797820,
+      "variantId": "-OZW4O_MxLgEgMy7C4ji",
+      "variantName": "q1",
+      "variantSize": 10,
+      "variantUnit": "g"
+    }
+  },
+  "packingActivities": {
+    "-OZW4hEWgJDX7hltkJIn": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "bulkUnit": "kg",
+      "bulkUsed": 0.99,
+      "createdAt": 1757196767088,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "createdByName": "pk2@gmail.com",
+      "efficiency": 100000,
+      "packagedProductId": "-OZW4h6OfRlB7sEVGa_0",
+      "productName": "M oil",
+      "stockId": "-OZThhOVyeFQdx45OovE",
+      "type": "packaging",
+      "unitsProduced": 99,
+      "variantName": "q1"
+    },
+    "-OZW4onlKrcELmFKLKg4": {
+      "createdAt": 1757196798080,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "createdByName": "pk2@gmail.com",
+      "dispatchId": "-OZW4obbbz98zlXO2d-0",
+      "packagedProductId": "-OZW4h6OfRlB7sEVGa_0",
+      "productName": "M oil",
+      "releaseCode": "2509070343RXG8XC",
+      "remainingUnits": 89,
+      "type": "export",
+      "unitsExported": 10,
+      "variantName": "q1"
+    }
+  },
+  "packingAreaLocations": {
+    "-OZTh_ptRTWT3fK_0l7L": {
+      "capacity": 1000,
+      "code": "A1",
+      "createdAt": 1757156891534,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "description": "",
+      "name": "001",
+      "status": "active",
+      "updatedAt": 1757156891534,
+      "updatedBy": "w8xievPCthWx6DjIUsTwyVfTRD62"
+    }
+  },
+  "packingAreaStock": {
+    "-OZThckUoo26mf25LNrH": {
+      "batchId": "-OZOmDveUGoRTPPuLZl7",
+      "batchNumber": "BATCH-PROD-2025-0004",
+      "createdAt": 1757156903476,
+      "expiryDate": 1788566400000,
+      "handoverId": "-OZOq1Xxd8VzGrJJAZC2",
+      "location": "A1",
+      "productId": "-OZOixii7R2Gb725fbKQ",
+      "productName": "B oil",
+      "qualityGrade": "A",
+      "quantity": 20,
+      "receivedAt": 1757156903476,
+      "receivedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "receivedByName": "pk2@gmail.com",
+      "receivedFrom": "production",
+      "status": "available",
+      "storageInstructions": "Store in cool, dry place",
+      "unit": "L"
+    },
+    "-OZThhOVyeFQdx45OovE": {
+      "batchId": "-OZOdiRyKM8tvxDYtSb0",
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757156922485,
+      "expiryDate": 1788609274200,
+      "handoverId": "-OZOibMRR_0esAAtLcRP",
+      "lastDispatched": 1758536953129,
+      "lastPackaged": 1757196766829,
+      "location": "A1",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "qualityGrade": "A",
+      "quantity": 0.009999999999999787,
+      "receivedAt": 1757156922485,
+      "receivedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "receivedByName": "pk2@gmail.com",
+      "receivedFrom": "production",
+      "status": "available",
+      "storageInstructions": "Store in cool, dry place",
+      "unit": "kg",
+      "updatedAt": 1758536953129
+    }
+  },
+  "packingAreaStockMovements": {
+    "-OZThcoZ4umlxpYuYfUy": {
+      "batchId": "-OZOmDveUGoRTPPuLZl7",
+      "batchNumber": "BATCH-PROD-2025-0004",
+      "createdAt": 1757156903737,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "createdByName": "pk2@gmail.com",
+      "location": "A1",
+      "productId": "-OZOixii7R2Gb725fbKQ",
+      "productName": "B oil",
+      "quantity": 20,
+      "reason": "Received from Production - Handover -OZOq1Xxd8VzGrJJAZC2",
+      "stockId": "-OZThckUoo26mf25LNrH",
+      "type": "in"
+    },
+    "-OZThhS_rNCq_blsRBGt": {
+      "batchId": "-OZOdiRyKM8tvxDYtSb0",
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1757156922746,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "createdByName": "pk2@gmail.com",
+      "location": "A1",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "quantity": 10,
+      "reason": "Received from Production - Handover -OZOibMRR_0esAAtLcRP",
+      "stockId": "-OZThhOVyeFQdx45OovE",
+      "type": "in"
+    },
+    "-O_ky5bi1INy9E1WclQd": {
+      "batchId": "-OZOdiRyKM8tvxDYtSb0",
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "createdAt": 1758536953378,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "createdByName": "pk2@gmail.com",
+      "location": "A1",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "quantity": 9,
+      "reason": "Dispatched to FG Store",
+      "stockId": "-OZThhOVyeFQdx45OovE",
+      "type": "out"
+    }
+  },
+  "packingMaterialRequests": {
+    "-OZIm6daNyQs63HkGA_j": {
+      "additionalNotes": "",
+      "allocatedAt": 1756973586722,
+      "createdAt": 1756973529832,
+      "department": "warehouse_operations",
+      "finalApproval": true,
+      "forwardedAt": 1756973543863,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Approved by Head of Operations",
+      "hoApprovedAt": 1756973543863,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "materials": [
+        {
+          "materialId": "pm002",
+          "materialName": "Bubble Wrap Rolls",
+          "requestedQuantity": "100",
+          "unit": "rolls",
+          "urgency": "urgent"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1756973551421,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "priority": "urgent",
+      "reasonForRequest": "",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "supplier_allocated",
+      "updatedAt": 1756973586722,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1756973543863,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1756973543863,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Approved by Head of Operations",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1756973551421,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1756973529832,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    },
+    "-OZJ0lV-AFGijGVi_I4s": {
+      "additionalNotes": "",
+      "allocatedAt": 1756977744268,
+      "createdAt": 1756977633411,
+      "department": "warehouse_operations",
+      "finalApproval": true,
+      "forwardedAt": 1756977678937,
+      "forwardedToMD": true,
+      "hoApprovalComments": "Approved by Head of Operations",
+      "hoApprovedAt": 1756977678937,
+      "hoApprovedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "hoApprovedByName": "ho1@detz.com",
+      "materials": [
+        {
+          "materialId": "pm002",
+          "materialName": "Bubble Wrap Rolls",
+          "requestedQuantity": "120",
+          "unit": "rolls",
+          "urgency": "urgent"
+        }
+      ],
+      "mdApprovalComments": "Approved by Main Director",
+      "mdApprovedAt": 1756977693413,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "mdApprovedByName": "md1@detz.com",
+      "priority": "urgent",
+      "reasonForRequest": "",
+      "requestedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "requestedByName": "wr123@g.com",
+      "requestedByRole": "WarehouseStaff",
+      "status": "supplier_allocated",
+      "updatedAt": 1756977744268,
+      "workflow": {
+        "forwardedToMD": {
+          "at": 1756977678937,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "HeadOfOperations"
+        },
+        "hoApproved": {
+          "at": 1756977678937,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "comments": "Approved by Head of Operations",
+          "role": "HeadOfOperations"
+        },
+        "mdApproved": {
+          "at": 1756977693413,
+          "by": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+          "comments": "Approved by Main Director",
+          "role": "MainDirector"
+        },
+        "submitted": {
+          "at": 1756977633411,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        }
+      }
+    }
+  },
+  "packingMaterials": {
+    "pm001": {
+      "category": "Primary Packaging",
+      "code": "PM001",
+      "createdAt": 1704067200000,
+      "currentStock": 567,
+      "location": "Warehouse B - Section 2",
+      "maxLevel": 1000,
+      "name": "Cardboard Boxes - Small",
+      "pricePerUnit": 0.85,
+      "qualityGrade": "A",
+      "reorderLevel": 100,
+      "status": "active",
+      "supplier": "Quality Packaging Solutions",
+      "unit": "pieces",
+      "updatedAt": 1704153600000
+    },
+    "pm002": {
+      "category": "Protective Materials",
+      "code": "PM002",
+      "createdAt": 1704067200000,
+      "currentStock": 485,
+      "lastUpdated": 1756973636268,
+      "location": "Warehouse B - Section 1",
+      "maxLevel": 100,
+      "name": "Bubble Wrap Rolls",
+      "pricePerUnit": 15.5,
+      "qualityGrade": "A",
+      "reorderLevel": 30,
+      "status": "active",
+      "supplier": "Protective Materials Ltd",
+      "unit": "rolls",
+      "updatedAt": 1704153600000
+    },
+    "pm003": {
+      "category": "Labels",
+      "code": "PM003",
+      "createdAt": 1704067200000,
+      "currentStock": 1200,
+      "location": "Warehouse B - Section 3",
+      "maxLevel": 2000,
+      "name": "Labels - Product",
+      "pricePerUnit": 0.12,
+      "qualityGrade": "A",
+      "reorderLevel": 200,
+      "status": "active",
+      "supplier": "Label Pro",
+      "unit": "sheets",
+      "updatedAt": 1704153600000
+    }
+  },
+  "payments": {
+    "-OZIlVATXhwDRGnx-zTX": {
+      "amount": 11000,
+      "bankName": "",
+      "cardLast4": "",
+      "cardType": "credit",
+      "chequeNumber": "",
+      "createdAt": 1756973368163,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "invoiceId": "-OZIlGzufyR-e1_i3JcF",
+      "invoiceNumber": "INV20250001",
+      "method": "cash",
+      "methodDetails": {
+        "bankName": "",
+        "cardLast4": "",
+        "cardType": "credit",
+        "chequeNumber": "",
+        "otherMethodDetails": ""
+      },
+      "notes": "",
+      "otherMethodDetails": "",
+      "paymentDate": 1756944000000,
+      "paymentNumber": "PAY20250001",
+      "paymentType": "full",
+      "referenceNumber": "",
+      "status": "posted",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "updatedAt": 1756973368163
+    },
+    "-OZImiizph6jS4p8tMfw": {
+      "amount": 57200,
+      "bankName": "",
+      "cardLast4": "",
+      "cardType": "credit",
+      "chequeNumber": "",
+      "createdAt": 1756973689921,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "invoiceId": "-OZIlyHf3w0jmtfBSFn6",
+      "invoiceNumber": "INV20250002",
+      "method": "card",
+      "methodDetails": {
+        "bankName": "",
+        "cardLast4": "",
+        "cardType": "credit",
+        "chequeNumber": "",
+        "otherMethodDetails": ""
+      },
+      "notes": "",
+      "otherMethodDetails": "",
+      "paymentDate": 1756944000000,
+      "paymentNumber": "PAY20250002",
+      "paymentType": "full",
+      "referenceNumber": "",
+      "status": "posted",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "updatedAt": 1756973689921
+    },
+    "-O_RV5jQNAqBBq6bd72y": {
+      "amount": 24750,
+      "bankName": "",
+      "cardLast4": "4563",
+      "cardType": "credit",
+      "chequeNumber": "",
+      "createdAt": 1758193545012,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "invoiceId": "-O_RUg1Octlr8Ln9J8A9",
+      "invoiceNumber": "INV20250005",
+      "method": "card",
+      "methodDetails": {
+        "bankName": "",
+        "cardLast4": "4563",
+        "cardType": "credit",
+        "chequeNumber": "",
+        "otherMethodDetails": ""
+      },
+      "notes": "",
+      "otherMethodDetails": "",
+      "paymentDate": 1758153600000,
+      "paymentNumber": "PAY20250003",
+      "paymentType": "partial",
+      "referenceNumber": "21234e223",
+      "status": "posted",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "updatedAt": 1758193545012
+    }
+  },
+  "pcs": {
+    "5N98zjBWOfYoan2sZ4n932cWDgf1": {
+      "pages": {
+        "admin_users": false,
+        "approvals_history": true,
+        "dashboard": true,
+        "warehouse_goods-receipts": true,
+        "warehouse_invoices": true,
+        "warehouse_packing-materials": false,
+        "warehouse_packing-materials_request": false,
+        "warehouse_packing-materials_requests": false,
+        "warehouse_production-requests": true,
+        "warehouse_purchase-orders": true,
+        "warehouse_purchase-preparation": true,
+        "warehouse_qc_grn-list": true,
+        "warehouse_raw-materials": false,
+        "warehouse_raw-materials_request": false,
+        "warehouse_raw-materials_requests": false
+      },
+      "updatedAt": 1758193760839,
+      "updatedBy": "RuhRIL2z1bafugeKYWyDhlOQm0T2"
+    },
+    "BmSlQIhtS4glKvEq1WupVzaLt8p1": {
+      "initializedAt": 1757932264653,
+      "initializedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "note": "Role-based default permissions - Admin can modify via PCS",
+      "pages": {
+        "admin_reports_packing-material-requests": true,
+        "admin_reports_supplier-performance": true,
+        "approvals": true,
+        "approvals_history": true,
+        "dashboard": true,
+        "reports": true
+      },
+      "role": "MainDirector"
+    },
+    "DeDtclFo9aazi65eR8K6ybD9QAq1": {
+      "initializedAt": 1758194275854,
+      "initializedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "note": "Role-based default permissions - Admin can modify via PCS",
+      "pages": {
+        "dashboard": true,
+        "production_batch-table": true,
+        "production_batches": true,
+        "production_create-batch": true,
+        "production_handover": true,
+        "production_monitor": true,
+        "production_products": true,
+        "production_products-table": true,
+        "production_products_create": true,
+        "production_qc-records": true,
+        "production_raw-material-requests": true,
+        "production_reports": true,
+        "production_store": true
+      },
+      "role": "ProductionManager"
+    },
+    "J0xcMQTTAsRUDVAjlfLrhjJfQTD3": {
+      "initializedAt": 1758570656452,
+      "initializedBy": "J0xcMQTTAsRUDVAjlfLrhjJfQTD3",
+      "note": "Role-based default permissions - Admin can modify via PCS",
+      "pages": {
+        "dashboard": true,
+        "data-entry": true,
+        "data-entry_add-material": true,
+        "data-entry_add-product": true,
+        "data-entry_material-types": true
+      },
+      "role": "DataEntry"
+    },
+    "QtbR9bTgy5efwyRX5AGQAu8yJFG3": {
+      "initializedAt": 1758545203136,
+      "initializedBy": "QtbR9bTgy5efwyRX5AGQAu8yJFG3",
+      "note": "Role-based default permissions - Admin can modify via PCS",
+      "pages": {
+        "dashboard": true,
+        "data-entry": true,
+        "data-entry_add-material": true,
+        "data-entry_add-product": true,
+        "data-entry_material-types": true
+      },
+      "role": "DataEntry"
+    },
+    "YwLQfqSBFmPkVrQUzdADRQpmmvi1": {
+      "pages": {
+        "approvals": false,
+        "approvals_ds-requests": false,
+        "approvals_history": false,
+        "approvals_supplier-monitoring": false,
+        "dashboard": true,
+        "finished-goods_batch-tracking": true,
+        "finished-goods_claim-dispatches": true,
+        "finished-goods_direct-shop-requests": true,
+        "finished-goods_dispatch-reports": true,
+        "finished-goods_dispatch-tracking": true,
+        "finished-goods_ds-requests": true,
+        "finished-goods_expiry-management": true,
+        "finished-goods_external-dispatches": true,
+        "finished-goods_inventory": true,
+        "finished-goods_location-management": true,
+        "finished-goods_mobile-requests": true,
+        "finished-goods_price-history": true,
+        "finished-goods_pricing": true,
+        "finished-goods_quality-control": true,
+        "finished-goods_recipient-analytics": true,
+        "finished-goods_stock-movements": true,
+        "finished-goods_storage-locations": true,
+        "md_notice": false
+      },
+      "updatedAt": 1758479447065,
+      "updatedBy": "RuhRIL2z1bafugeKYWyDhlOQm0T2"
+    },
+    "vYMCXCf59DMEDsG7BbQHdexPOK33": {
+      "pages": {
+        "admin_pcs_sales-history": true,
+        "admin_reports_packing-material-requests": true,
+        "approvals": true,
+        "approvals_direct-shop-requests": true,
+        "approvals_history": true,
+        "approvals_supplier-monitoring": true,
+        "dashboard": true,
+        "production_products": true,
+        "reports": true,
+        "warehouse_production-requests": true
+      },
+      "updatedAt": 1758984525882,
+      "updatedBy": "RuhRIL2z1bafugeKYWyDhlOQm0T2"
+    },
+    "w8xievPCthWx6DjIUsTwyVfTRD62": {
+      "initializedAt": 1758194228448,
+      "initializedBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "note": "Role-based default permissions - Admin can modify via PCS",
+      "pages": {
+        "dashboard": true,
+        "packing-area_dispatch-history": true,
+        "packing-area_package-products": true,
+        "packing-area_request-materials": true,
+        "packing-area_request-products": true,
+        "packing-area_send-to-fg": true,
+        "packing-area_stock": true,
+        "packing-area_variants": true
+      },
+      "role": "PackingAreaManager"
+    },
+    "yFiv4iOUIpNtKCCRK1iRmkvoge53": {
+      "initializedAt": 1758569396816,
+      "initializedBy": "yFiv4iOUIpNtKCCRK1iRmkvoge53",
+      "note": "Role-based default permissions - Admin can modify via PCS",
+      "pages": {
+        "dashboard": true,
+        "data-entry": true,
+        "data-entry_add-material": true,
+        "data-entry_add-product": true,
+        "data-entry_material-types": true
+      },
+      "role": "DataEntry"
+    }
+  },
+  "productPriceHistory": {
+    "-O_i0xcnYCng54lD54WM": {
+      "changeReason": "0",
+      "changedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "changedByName": "fg@detz.com",
+      "effectiveDate": 1758412800000,
+      "newPrice": 450,
+      "previousPrice": 400,
+      "productId": "-OZNw27pXcB5BJFTv7Na_q1",
+      "recordedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "recordedByName": "fg@detz.com",
+      "timestamp": 1758487633126
+    },
+    "-O_iLQC7cw1Ux3COXpjB": {
+      "changeReason": "02",
+      "changedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "changedByName": "fg@detz.com",
+      "effectiveDate": 1758412800000,
+      "newPrice": 500,
+      "previousPrice": 100,
+      "productId": "M oil - q1",
+      "recordedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "recordedByName": "fg@detz.com",
+      "timestamp": 1758492997084
+    }
+  },
+  "productPricing": {
+    "-OZNw27pXcB5BJFTv7Na_q1": {
+      "changeReason": "0",
+      "currency": "LKR",
+      "currentPrice": 450,
+      "effectiveDate": 1758412800000,
+      "lastUpdatedAt": 1758487633375,
+      "lastUpdatedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "lastUpdatedByName": "fg@detz.com",
+      "priceType": "retail",
+      "productId": "-OZNw27pXcB5BJFTv7Na_q1",
+      "status": "active"
+    },
+    "-OZOixii7R2Gb725fbKQ": {
+      "changeReason": "0",
+      "createdAt": 1758487609777,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "currency": "LKR",
+      "currentPrice": 500,
+      "effectiveDate": 1758412800000,
+      "lastUpdatedAt": 1758487609777,
+      "lastUpdatedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "lastUpdatedByName": "fg@detz.com",
+      "priceType": "retail",
+      "productId": "-OZOixii7R2Gb725fbKQ",
+      "status": "active"
+    },
+    "M oil - q1": {
+      "changeReason": "02",
+      "currency": "LKR",
+      "currentPrice": 500,
+      "effectiveDate": 1758412800000,
+      "lastUpdatedAt": 1758492997325,
+      "lastUpdatedBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "lastUpdatedByName": "fg@detz.com",
+      "priceType": "retail",
+      "productId": "M oil - q1",
+      "status": "active"
+    }
+  },
+  "productVariants": {
+    "-OZW4O_MxLgEgMy7C4ji": {
+      "barcode": "2001456320",
+      "createdAt": 1757196686566,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "createdByName": "pk2@gmail.com",
+      "description": "",
+      "name": "q1",
+      "packagingType": "bottle",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "size": 10,
+      "status": "active",
+      "unit": "g",
+      "updatedAt": 1757196686566
+    }
+  },
+  "productionBatches": {
+    "-OZO7-C1sJ2KFHK3u7-f": {
+      "batchNumber": "BATCH-PROD-2025-0001",
+      "completedAt": 1757070488150,
+      "createdAt": 1757063152573,
+      "createdBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "createdByName": "prod@detz.com",
+      "notes": "",
+      "outputQuantity": 200,
+      "priority": "low",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "progress": 100,
+      "qcCompleted": true,
+      "qcCompletedAt": 1757072118420,
+      "qcGrade": "A",
+      "qcStages": {
+        "completed": {
+          "completed": true,
+          "completedAt": 1757070488150,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "cooling": {
+          "completed": true,
+          "completedAt": 1757070475265,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "created": {
+          "completed": true,
+          "completedAt": 1757068391753,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "heating": {
+          "completed": true,
+          "completedAt": 1757070471250,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "mixing": {
+          "completed": true,
+          "completedAt": 1757068720225,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "qc_final": {
+          "completed": true,
+          "completedAt": 1757070477127,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        }
+      },
+      "rawMaterials": [
+        {
+          "id": 1,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "notes": "",
+          "quantity": 800,
+          "quantityPerUnit": 4,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "notes": "",
+          "quantity": 200,
+          "quantityPerUnit": 1,
+          "unit": "kg"
+        }
+      ],
+      "stage": "completed",
+      "status": "qc_passed",
+      "targetQuantity": 200,
+      "unit": "kg",
+      "updatedAt": 1757072118420,
+      "updatedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+    },
+    "-OZOdiRyKM8tvxDYtSb0": {
+      "batchNumber": "BATCH-PROD-2025-0002",
+      "completedAt": 1757073269804,
+      "createdAt": 1757071992785,
+      "createdBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "createdByName": "prod@detz.com",
+      "handedOverAt": 1757073274728,
+      "handoverId": "-OZOibMRR_0esAAtLcRP",
+      "notes": "",
+      "outputQuantity": 10,
+      "priority": "low",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productName": "M oil",
+      "progress": 100,
+      "qcCompleted": true,
+      "qcCompletedAt": 1757072030403,
+      "qcGrade": "A",
+      "qcStages": {
+        "completed": {
+          "completed": true,
+          "completedAt": 1757073269804,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "cooling": {
+          "completed": true,
+          "completedAt": 1757073264932,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "created": {
+          "completed": true,
+          "completedAt": 1757073204625,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "final_qc": {
+          "completed": false
+        },
+        "heating": {
+          "completed": true,
+          "completedAt": 1757073263603,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "mixing": {
+          "completed": true,
+          "completedAt": 1757073259919,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "preparation": {
+          "completed": false
+        },
+        "qc_final": {
+          "completed": true,
+          "completedAt": 1757073266074,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        }
+      },
+      "rawMaterials": [
+        {
+          "id": 1,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "notes": "",
+          "quantity": 40,
+          "quantityPerUnit": 4,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "notes": "",
+          "quantity": 10,
+          "quantityPerUnit": 1,
+          "unit": "kg"
+        }
+      ],
+      "stage": "completed",
+      "status": "handed_over",
+      "targetQuantity": 10,
+      "unit": "kg",
+      "updatedAt": 1757073274728,
+      "updatedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+    },
+    "-OZOj6s6JKUMoCKYTKZN": {
+      "batchNumber": "BATCH-PROD-2025-0003",
+      "completedAt": 1757073941930,
+      "createdAt": 1757073407626,
+      "createdBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "createdByName": "prod@detz.com",
+      "handedOverAt": 1757075286701,
+      "handoverId": "-OZOqHYhihXR_umwNwwL",
+      "notes": "",
+      "outputQuantity": 0,
+      "priority": "normal",
+      "productId": "-OZOixii7R2Gb725fbKQ",
+      "productName": "B oil",
+      "progress": 100,
+      "qcCompleted": true,
+      "qcCompletedAt": 1757074017573,
+      "qcGrade": "A",
+      "qcStages": {
+        "cooling": {
+          "completed": false
+        },
+        "final_qc": {
+          "completed": false
+        },
+        "heating": {
+          "completed": false
+        },
+        "mixing": {
+          "completed": false
+        },
+        "preparation": {
+          "completed": false
+        }
+      },
+      "rawMaterials": [
+        {
+          "id": 1,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "notes": "",
+          "quantity": 40,
+          "quantityPerUnit": 2,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "notes": "",
+          "quantity": 100,
+          "quantityPerUnit": 5,
+          "unit": "L"
+        }
+      ],
+      "stage": "preparation",
+      "status": "handed_over",
+      "targetQuantity": 20,
+      "unit": "L",
+      "updatedAt": 1757075286701,
+      "updatedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+    },
+    "-OZOmDveUGoRTPPuLZl7": {
+      "batchNumber": "BATCH-PROD-2025-0004",
+      "completedAt": 1757074247188,
+      "createdAt": 1757074222974,
+      "createdBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "createdByName": "prod@detz.com",
+      "handedOverAt": 1757075221079,
+      "handoverId": "-OZOq1Xxd8VzGrJJAZC2",
+      "notes": "",
+      "outputQuantity": 20,
+      "priority": "high",
+      "productId": "-OZOixii7R2Gb725fbKQ",
+      "productName": "B oil",
+      "progress": 100,
+      "qcCompleted": true,
+      "qcCompletedAt": 1757074247188,
+      "qcGrade": "A",
+      "qcStages": {
+        "completed": {
+          "completed": true,
+          "completedAt": 1757074246929,
+          "completedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+        },
+        "cooling": {
+          "completed": false
+        },
+        "final_qc": {
+          "completed": false
+        },
+        "heating": {
+          "completed": false
+        },
+        "mixing": {
+          "completed": false
+        },
+        "preparation": {
+          "completed": false
+        }
+      },
+      "rawMaterials": [
+        {
+          "id": 1,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "notes": "",
+          "quantity": 40,
+          "quantityPerUnit": 2,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "notes": "",
+          "quantity": 100,
+          "quantityPerUnit": 5,
+          "unit": "L"
+        }
+      ],
+      "stage": "completed",
+      "status": "handed_over",
+      "targetQuantity": 20,
+      "unit": "L",
+      "updatedAt": 1757075221079,
+      "updatedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1"
+    }
+  },
+  "productionMaterialDispatches": {
+    "-OZOYAoIkZ7RTETMfp9Q": {
+      "createdAt": 1757070278045,
+      "dispatchedAt": 1757070278045,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "dispatchedByName": "wr123@g.com",
+      "items": [
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 16,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "requestedQuantity": 16,
+          "stockAfter": 234,
+          "stockBefore": 250,
+          "unit": "kg"
+        },
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 4,
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "requestedQuantity": 4,
+          "stockAfter": 197,
+          "stockBefore": 201,
+          "unit": "kg"
+        }
+      ],
+      "notes": "Materials dispatched to Production",
+      "receiptConfirmed": true,
+      "receiptNotes": "Materials received and confirmed by Production",
+      "receivedAt": 1757070313213,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "requestId": "-OZO4hcfBBqGkkdZu6go",
+      "requestType": "production_raw_material",
+      "status": "received",
+      "updatedAt": 1757070313213
+    },
+    "-OZOYoRO3m4at7ZvSaZB": {
+      "createdAt": 1757070444452,
+      "dispatchedAt": 1757070444452,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "dispatchedByName": "wr123@g.com",
+      "items": [
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 10,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "requestedQuantity": 10,
+          "stockAfter": 224,
+          "stockBefore": 234,
+          "unit": "kg"
+        }
+      ],
+      "notes": "Materials dispatched to Production",
+      "receiptConfirmed": true,
+      "receiptNotes": "Materials received and confirmed by Production",
+      "receivedAt": 1757088556020,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "requestId": "-OZOYkPEVHo9grOJVKO0",
+      "requestType": "production_raw_material",
+      "status": "received",
+      "updatedAt": 1757088556020
+    },
+    "-OZPcaxORSqZIQalUuAq": {
+      "createdAt": 1757088477154,
+      "dispatchedAt": 1757088477154,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "dispatchedByName": "wr123@g.com",
+      "items": [
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 8,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "requestedQuantity": 8,
+          "stockAfter": 216,
+          "stockBefore": 224,
+          "unit": "kg"
+        },
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 2,
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "requestedQuantity": 2,
+          "stockAfter": 195,
+          "stockBefore": 197,
+          "unit": "kg"
+        }
+      ],
+      "notes": "Materials dispatched to Production",
+      "receiptConfirmed": true,
+      "receiptNotes": "Materials received and confirmed by Production",
+      "receivedAt": 1757088548657,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "requestId": "-OZPcS4Jhy_8NMZu222Y",
+      "requestType": "production_raw_material",
+      "status": "received",
+      "updatedAt": 1757088548657
+    },
+    "-OZPdHc0VavWcVPRVBfd": {
+      "createdAt": 1757088656010,
+      "dispatchedAt": 1757088656010,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "dispatchedByName": "wr123@g.com",
+      "items": [
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 4,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "requestedQuantity": 4,
+          "stockAfter": 212,
+          "stockBefore": 216,
+          "unit": "kg"
+        },
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 1,
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "requestedQuantity": 1,
+          "stockAfter": 194,
+          "stockBefore": 195,
+          "unit": "kg"
+        }
+      ],
+      "notes": "Materials dispatched to Production",
+      "receiptConfirmed": true,
+      "receiptNotes": "Materials received and confirmed by Production",
+      "receivedAt": 1757088713212,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "requestId": "-OZPdBvca5uJlenKWnsn",
+      "requestType": "production_raw_material",
+      "status": "received",
+      "updatedAt": 1757088713212
+    },
+    "-O_RbLSOpJTA78CE8hZ4": {
+      "createdAt": 1758195438849,
+      "dispatchedAt": 1758195438849,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "dispatchedByName": "wr123@g.com",
+      "items": [
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 10,
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "requestedQuantity": 10,
+          "stockAfter": 472,
+          "stockBefore": 482,
+          "unit": "kg"
+        }
+      ],
+      "notes": "Materials dispatched to Production",
+      "receiptConfirmed": true,
+      "receiptNotes": "Materials received and confirmed by Production",
+      "receivedAt": 1758536465680,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "requestId": "-O_RYPeMQb37DvUHFsOg",
+      "requestType": "production_raw_material",
+      "status": "received",
+      "updatedAt": 1758536465680
+    },
+    "-O_kwZ_PwwKkhK5t63g1": {
+      "createdAt": 1758536551819,
+      "dispatchedAt": 1758536551819,
+      "dispatchedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "dispatchedByName": "ho1@detz.com",
+      "items": [
+        {
+          "batchNumber": "",
+          "dispatchedQuantity": 20,
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "requestedQuantity": 20,
+          "stockAfter": 308,
+          "stockBefore": 328,
+          "unit": "L"
+        }
+      ],
+      "notes": "Materials dispatched to Production",
+      "receiptConfirmed": true,
+      "receiptNotes": "Materials received and confirmed by Production",
+      "receivedAt": 1758536604487,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "requestId": "-O_kwRQJA7KK6553NYss",
+      "requestType": "production_raw_material",
+      "status": "received",
+      "updatedAt": 1758536604487
+    }
+  },
+  "productionProducts": {
+    "-OZNw27pXcB5BJFTv7Na": {
+      "category": "Finished Product",
+      "code": "01204M",
+      "createdAt": 1757060018862,
+      "createdBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "createdByName": "prod@detz.com",
+      "description": "",
+      "materialRequirements": [
+        {
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "notes": "",
+          "quantityPerUnit": 4,
+          "unit": "kg"
+        },
+        {
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "notes": "",
+          "quantityPerUnit": 1,
+          "unit": "kg"
+        }
+      ],
+      "name": "M oil",
+      "qualityParameters": "",
+      "shelfLife": "50",
+      "status": "active",
+      "storageConditions": "",
+      "unit": "kg",
+      "updatedAt": 1757060018862
+    },
+    "-OZOixii7R2Gb725fbKQ": {
+      "category": "Finished Product",
+      "code": "01204B",
+      "createdAt": 1757073366066,
+      "createdBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "createdByName": "prod@detz.com",
+      "description": "",
+      "materialRequirements": [
+        {
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "notes": "",
+          "quantityPerUnit": 2,
+          "unit": "kg"
+        },
+        {
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "notes": "",
+          "quantityPerUnit": 5,
+          "unit": "L"
+        }
+      ],
+      "name": "B oil",
+      "qualityParameters": "",
+      "shelfLife": "20",
+      "status": "active",
+      "storageConditions": "",
+      "unit": "L",
+      "updatedAt": 1757073366066
+    }
+  },
+  "productionRawMaterialRequests": {
+    "-OZO4hcfBBqGkkdZu6go": {
+      "batchReference": "",
+      "createdAt": 1757062552255,
+      "department": "Production",
+      "dispatchId": "-OZOYAoIkZ7RTETMfp9Q",
+      "dispatchedAt": 1757070279804,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "items": [
+        {
+          "batchReference": "",
+          "calculatedQuantity": "16.00",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 16,
+          "quantityPerUnit": 4,
+          "reason": "Required for M oil production",
+          "unit": "kg",
+          "urgency": "normal"
+        },
+        {
+          "batchReference": "",
+          "calculatedQuantity": "4.00",
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "quantity": 4,
+          "quantityPerUnit": 1,
+          "reason": "Required for M oil production",
+          "unit": "kg",
+          "urgency": "normal"
+        }
+      ],
+      "notes": "",
+      "priority": "normal",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productionQuantity": 4,
+      "receivedAt": 1757070313464,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestMode": "product",
+      "requestType": "production_raw_material",
+      "requestedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestedByName": "prod@detz.com",
+      "requestedByRole": "ProductionManager",
+      "status": "received",
+      "updatedAt": 1757070313464,
+      "workflow": {
+        "dispatched": {
+          "at": 1757070279804,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        },
+        "submitted": {
+          "at": 1757062552255,
+          "by": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+          "role": "ProductionManager"
+        }
+      }
+    },
+    "-OZOYkPEVHo9grOJVKO0": {
+      "batchReference": "",
+      "createdAt": 1757070427930,
+      "department": "Production",
+      "dispatchId": "-OZOYoRO3m4at7ZvSaZB",
+      "dispatchedAt": 1757070445446,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "items": [
+        {
+          "batchReference": "",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 10,
+          "reason": "enough!",
+          "unit": "kg",
+          "urgency": "urgent"
+        }
+      ],
+      "notes": "",
+      "priority": "urgent",
+      "receivedAt": 1757088556268,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestMode": "direct",
+      "requestType": "production_raw_material",
+      "requestedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestedByName": "prod@detz.com",
+      "requestedByRole": "ProductionManager",
+      "status": "received",
+      "updatedAt": 1757088556268,
+      "workflow": {
+        "dispatched": {
+          "at": 1757070445446,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        },
+        "submitted": {
+          "at": 1757070427930,
+          "by": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+          "role": "ProductionManager"
+        }
+      }
+    },
+    "-OZPcS4Jhy_8NMZu222Y": {
+      "batchReference": "",
+      "createdAt": 1757088436701,
+      "department": "Production",
+      "dispatchId": "-OZPcaxORSqZIQalUuAq",
+      "dispatchedAt": 1757088478899,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "items": [
+        {
+          "batchReference": "",
+          "calculatedQuantity": "800.00",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 8,
+          "quantityPerUnit": 4,
+          "reason": "Required for M oil production",
+          "unit": "kg",
+          "urgency": "normal"
+        },
+        {
+          "batchReference": "",
+          "calculatedQuantity": "200.00",
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "quantity": 2,
+          "quantityPerUnit": 1,
+          "reason": "Required for M oil production",
+          "unit": "kg",
+          "urgency": "normal"
+        }
+      ],
+      "notes": "",
+      "priority": "normal",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productionQuantity": 200,
+      "receivedAt": 1757088548905,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestMode": "product",
+      "requestType": "production_raw_material",
+      "requestedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestedByName": "prod@detz.com",
+      "requestedByRole": "ProductionManager",
+      "status": "received",
+      "updatedAt": 1757088548905,
+      "workflow": {
+        "dispatched": {
+          "at": 1757088478899,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        },
+        "submitted": {
+          "at": 1757088436701,
+          "by": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+          "role": "ProductionManager"
+        }
+      }
+    },
+    "-OZPdBvca5uJlenKWnsn": {
+      "batchReference": "",
+      "createdAt": 1757088632689,
+      "department": "Production",
+      "dispatchId": "-OZPdHc0VavWcVPRVBfd",
+      "dispatchedAt": 1757088657747,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "items": [
+        {
+          "batchReference": "",
+          "calculatedQuantity": "40.00",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 4,
+          "quantityPerUnit": 4,
+          "reason": "Required for M oil production",
+          "unit": "kg",
+          "urgency": "normal"
+        },
+        {
+          "batchReference": "",
+          "calculatedQuantity": "10.00",
+          "materialId": "rm003",
+          "materialName": "Additive C",
+          "quantity": 1,
+          "quantityPerUnit": 1,
+          "reason": "Required for M oil production",
+          "unit": "kg",
+          "urgency": "normal"
+        }
+      ],
+      "notes": "",
+      "priority": "normal",
+      "productId": "-OZNw27pXcB5BJFTv7Na",
+      "productionQuantity": 10,
+      "receivedAt": 1757088713461,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestMode": "product",
+      "requestType": "production_raw_material",
+      "requestedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestedByName": "prod@detz.com",
+      "requestedByRole": "ProductionManager",
+      "status": "received",
+      "updatedAt": 1757088713461,
+      "workflow": {
+        "dispatched": {
+          "at": 1757088657747,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        },
+        "submitted": {
+          "at": 1757088632689,
+          "by": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+          "role": "ProductionManager"
+        }
+      }
+    },
+    "-O_RYPeMQb37DvUHFsOg": {
+      "batchReference": "",
+      "createdAt": 1758194413028,
+      "department": "Production",
+      "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+      "dispatchedAt": 1758195439806,
+      "dispatchedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "items": [
+        {
+          "batchReference": "",
+          "materialId": "rm001",
+          "materialName": "Raw Material A",
+          "quantity": 10,
+          "reason": "aa",
+          "unit": "kg",
+          "urgency": "normal"
+        }
+      ],
+      "notes": "",
+      "priority": "normal",
+      "receivedAt": 1758536465924,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestMode": "direct",
+      "requestType": "production_raw_material",
+      "requestedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestedByName": "prod@detz.com",
+      "requestedByRole": "ProductionManager",
+      "status": "received",
+      "updatedAt": 1758536465924,
+      "workflow": {
+        "dispatched": {
+          "at": 1758195439806,
+          "by": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+          "role": "WarehouseStaff"
+        },
+        "submitted": {
+          "at": 1758194413028,
+          "by": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+          "role": "ProductionManager"
+        }
+      }
+    },
+    "-O_kwRQJA7KK6553NYss": {
+      "batchReference": "",
+      "createdAt": 1758536518405,
+      "department": "Production",
+      "dispatchId": "-O_kwZ_PwwKkhK5t63g1",
+      "dispatchedAt": 1758536552804,
+      "dispatchedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "items": [
+        {
+          "batchReference": "",
+          "materialId": "rm002",
+          "materialName": "Chemical B",
+          "quantity": 20,
+          "reason": "q",
+          "unit": "L",
+          "urgency": "high"
+        }
+      ],
+      "notes": "",
+      "priority": "normal",
+      "receivedAt": 1758536604724,
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestMode": "direct",
+      "requestType": "production_raw_material",
+      "requestedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "requestedByName": "prod@detz.com",
+      "requestedByRole": "ProductionManager",
+      "status": "received",
+      "updatedAt": 1758536604724,
+      "workflow": {
+        "dispatched": {
+          "at": 1758536552804,
+          "by": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+          "role": "WarehouseStaff"
+        },
+        "submitted": {
+          "at": 1758536518405,
+          "by": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+          "role": "ProductionManager"
+        }
+      }
+    }
+  },
+  "productionStockMovements": {
+    "-OZPcsXOoQbtqW0ZCpvz": {
+      "batchNumber": "",
+      "createdAt": 1757088549154,
+      "dispatchId": "-OZPcaxORSqZIQalUuAq",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "quantity": 8,
+      "reason": "Received from Warehouse - Dispatch -OZPcaxORSqZIQalUuAq",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "kg"
+    },
+    "-OZPcsaGga0cdl3DxFT3": {
+      "batchNumber": "",
+      "createdAt": 1757088549402,
+      "dispatchId": "-OZPcaxORSqZIQalUuAq",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm003",
+      "materialName": "Additive C",
+      "quantity": 2,
+      "reason": "Received from Warehouse - Dispatch -OZPcaxORSqZIQalUuAq",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "kg"
+    },
+    "-OZPcuKR2yzDmPWmsQiJ": {
+      "batchNumber": "",
+      "createdAt": 1757088556517,
+      "dispatchId": "-OZOYoRO3m4at7ZvSaZB",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "quantity": 10,
+      "reason": "Received from Warehouse - Dispatch -OZOYoRO3m4at7ZvSaZB",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "kg"
+    },
+    "-OZPdVhZ-8ZwtQW7u2G_": {
+      "batchNumber": "",
+      "createdAt": 1757088713709,
+      "dispatchId": "-OZPdHc0VavWcVPRVBfd",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "quantity": 4,
+      "reason": "Received from Warehouse - Dispatch -OZPdHc0VavWcVPRVBfd",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "kg"
+    },
+    "-OZPdVlSXnv6zhmSnzYK": {
+      "batchNumber": "",
+      "createdAt": 1757088713958,
+      "dispatchId": "-OZPdHc0VavWcVPRVBfd",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm003",
+      "materialName": "Additive C",
+      "quantity": 1,
+      "reason": "Received from Warehouse - Dispatch -OZPdHc0VavWcVPRVBfd",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "kg"
+    },
+    "-O_kwEB3RM5BrDHI950Z": {
+      "batchNumber": "",
+      "createdAt": 1758536464181,
+      "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "quantity": 10,
+      "reason": "Received from Warehouse - Dispatch -O_RbLSOpJTA78CE8hZ4",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "kg"
+    },
+    "-O_kwEf8MoyDWHpbPXPL": {
+      "batchNumber": "",
+      "createdAt": 1758536466170,
+      "dispatchId": "-O_RbLSOpJTA78CE8hZ4",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "quantity": 10,
+      "reason": "Received from Warehouse - Dispatch -O_RbLSOpJTA78CE8hZ4",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "kg"
+    },
+    "-O_kwlYt8vh5zT4bZc7t": {
+      "batchNumber": "",
+      "createdAt": 1758536604961,
+      "dispatchId": "-O_kwZ_PwwKkhK5t63g1",
+      "fromLocation": "warehouse",
+      "location": "production_store",
+      "materialId": "rm002",
+      "materialName": "Chemical B",
+      "quantity": 20,
+      "reason": "Received from Warehouse - Dispatch -O_kwZ_PwwKkhK5t63g1",
+      "receivedBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "receivedByName": "prod@detz.com",
+      "type": "in",
+      "unit": "L"
+    }
+  },
+  "products": {
+    "prod001": {
+      "category": "Finished Product",
+      "code": "PROD001",
+      "createdAt": 1704067200000,
+      "createdBy": "uid_dataentry01",
+      "description": "Premium quality product for consumer market",
+      "name": "Product A - 500g",
+      "qualityParameters": "Moisture < 5%, Purity > 95%",
+      "shelfLife": 365,
+      "status": "active",
+      "storageConditions": "Store in cool, dry place",
+      "unit": "pieces"
+    },
+    "prod002": {
+      "category": "Finished Product",
+      "code": "PROD002",
+      "createdAt": 1704067200000,
+      "createdBy": "uid_dataentry01",
+      "description": "Industrial grade product for B2B market",
+      "name": "Product B - 1kg",
+      "qualityParameters": "Strength > 100 PSI, Density 1.2-1.5 g/cm³",
+      "shelfLife": 730,
+      "status": "active",
+      "storageConditions": "Store at room temperature",
+      "unit": "pieces"
+    }
+  },
+  "purchaseOrders": {
+    "-OZIl4elzl8_HjE7huAL": {
+      "createdAt": 1756973259574,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-10",
+      "grnId": "-OZIlEPLd-6h5qDKxDI-",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "preparationId": "-OZIl4P4eql_VpXH5mJH",
+      "quantity": 100,
+      "receivedDate": 1756973301348,
+      "requestId": "-OZIkphGAY25HYzlBzIu",
+      "requestType": "material",
+      "status": "fully_received",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 10000,
+      "totalReceived": 100,
+      "unit": "kg",
+      "unitPrice": 100,
+      "updatedAt": 1756973301348
+    },
+    "-OZIlsBFe00o-xyHVMlK": {
+      "createdAt": 1756973466514,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-24",
+      "grnId": "-OZIlvypz5E7hZK3ysuX",
+      "materialId": "rm002",
+      "materialName": "Chemical B",
+      "preparationId": "-OZIlrvpIUfqXJzoxaLv",
+      "quantity": 100,
+      "receivedDate": 1756973484666,
+      "requestId": "-OZIlcpjShmjNHot0w60",
+      "requestType": "material",
+      "status": "fully_received",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 52000,
+      "totalReceived": 100,
+      "unit": "L",
+      "unitPrice": 520,
+      "updatedAt": 1756973484666
+    },
+    "-OZImKTONUEQ2DiS4o86": {
+      "createdAt": 1756973586459,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-14",
+      "grnId": "-OZImTWrY0iBv63kZ1kP",
+      "materialId": "pm002",
+      "materialName": "Bubble Wrap Rolls",
+      "preparationId": "-OZImKCzoIVJIQjGvfxL",
+      "quantity": 100,
+      "receivedDate": 1756973626171,
+      "requestId": "-OZIm6daNyQs63HkGA_j",
+      "requestType": "packing_material",
+      "status": "fully_received",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 1000,
+      "totalReceived": 100,
+      "unit": "rolls",
+      "unitPrice": 10,
+      "updatedAt": 1756973626171
+    },
+    "-OZJ1BVJNlKxlXytkTtk": {
+      "createdAt": 1756977744023,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-05",
+      "grnId": "-OZJ1MysMPY-AZXQtj1V",
+      "materialId": "pm002",
+      "materialName": "Bubble Wrap Rolls",
+      "preparationId": "-OZJ1BGBmq3u-rncJWda",
+      "quantity": 120,
+      "receivedDate": 1756977792737,
+      "requestId": "-OZJ0lV-AFGijGVi_I4s",
+      "requestType": "packing_material",
+      "status": "fully_received",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 12000,
+      "totalReceived": 120,
+      "unit": "rolls",
+      "unitPrice": 100,
+      "updatedAt": 1756977792737
+    },
+    "-OZeOITR1Qyl7gdX0NS2": {
+      "createdAt": 1757352899731,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-09",
+      "materialId": "rm002",
+      "materialName": "Chemical B",
+      "preparationId": "-OZeOIDWQgySxahkG1q0",
+      "quantity": 10,
+      "requestId": "-OZcISynreaJn5d9H8HL",
+      "requestType": "material",
+      "status": "issued",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 100,
+      "unit": "L",
+      "unitPrice": 10
+    },
+    "-OZsQLx0N7TF3MGbJqHP": {
+      "createdAt": 1757588320527,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-17",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "preparationId": "-OZsQLgt4KZpue0j9ACv",
+      "quantity": 10,
+      "requestId": "-OZsPlfu7QiZP_fj2BzC",
+      "requestType": "material",
+      "status": "issued",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 4000,
+      "unit": "kg",
+      "unitPrice": 400
+    },
+    "-O_RSjJ_foeRaUc9cCAz": {
+      "createdAt": 1758192924798,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-19",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "preparationId": "-O_RSj3c8EgQJgTy2jyK",
+      "quantity": 10,
+      "requestId": "-O_RRKBthILz62Uegz-4",
+      "requestType": "material",
+      "status": "issued",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 2000,
+      "unit": "kg",
+      "unitPrice": 200
+    },
+    "-O_RSjgd4-XGmYj1RXCC": {
+      "createdAt": 1758192926338,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-20",
+      "grnId": "-O_RTaDdN2LTtdetDQRx",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "preparationId": "-O_RSjRgUuhSFStpvDvA",
+      "quantity": 90,
+      "receivedDate": 1758193151509,
+      "requestId": "-O_RRKBthILz62Uegz-4",
+      "requestType": "material",
+      "status": "fully_received",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 22500,
+      "totalReceived": 90,
+      "unit": "kg",
+      "unitPrice": 250,
+      "updatedAt": 1758193151509
+    }
+  },
+  "purchasePreparations": {
+    "-OZIl4P4eql_VpXH5mJH": {
+      "assignedAt": 1756973259039,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1756973258506,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-10",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "mdApprovedAt": 1756973214331,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-OZIkphGAY25HYzlBzIu",
+      "requestType": "material",
+      "requiredQuantity": 100,
+      "status": "supplier_assigned",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 10000,
+      "unit": "kg",
+      "unitPrice": 100,
+      "updatedAt": 1756973259039
+    },
+    "-OZIlrvpIUfqXJzoxaLv": {
+      "assignedAt": 1756973465988,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1756973465463,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-24",
+      "materialId": "rm002",
+      "materialName": "Chemical B",
+      "mdApprovedAt": 1756973418796,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-OZIlcpjShmjNHot0w60",
+      "requestType": "material",
+      "requiredQuantity": 100,
+      "status": "supplier_assigned",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 52000,
+      "unit": "L",
+      "unitPrice": 520,
+      "updatedAt": 1756973465988
+    },
+    "-OZImKCzoIVJIQjGvfxL": {
+      "assignedAt": 1756973585935,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1756973585409,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-14",
+      "materialId": "pm002",
+      "materialName": "Bubble Wrap Rolls",
+      "mdApprovedAt": 1756973551421,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-OZIm6daNyQs63HkGA_j",
+      "requestType": "packing_material",
+      "requiredQuantity": 100,
+      "status": "supplier_assigned",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 1000,
+      "unit": "rolls",
+      "unitPrice": 10,
+      "updatedAt": 1756973585935
+    },
+    "-OZJ1BGBmq3u-rncJWda": {
+      "assignedAt": 1756977743539,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1756977743055,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-05",
+      "materialId": "pm002",
+      "materialName": "Bubble Wrap Rolls",
+      "mdApprovedAt": 1756977693413,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-OZJ0lV-AFGijGVi_I4s",
+      "requestType": "packing_material",
+      "requiredQuantity": 120,
+      "status": "supplier_assigned",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 12000,
+      "unit": "rolls",
+      "unitPrice": 100,
+      "updatedAt": 1756977743539
+    },
+    "-OZeOIDWQgySxahkG1q0": {
+      "assignedAt": 1757352899221,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1757352898712,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-09",
+      "materialId": "rm002",
+      "materialName": "Chemical B",
+      "mdApprovedAt": 1757352846233,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-OZcISynreaJn5d9H8HL",
+      "requestType": "material",
+      "requiredQuantity": 10,
+      "status": "supplier_assigned",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 100,
+      "unit": "L",
+      "unitPrice": 10,
+      "updatedAt": 1757352899221
+    },
+    "-OZsQ6I43sX61YakY31r": {
+      "createdAt": 1757588256403,
+      "createdBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "mdApprovedAt": 1757588255064,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "requestId": "-OZsPlfu7QiZP_fj2BzC",
+      "requestType": "material",
+      "requiredQuantity": 10,
+      "status": "pending_supplier_assignment",
+      "unit": "kg",
+      "updatedAt": 1757588256403,
+      "urgency": "urgent"
+    },
+    "-OZsQLgt4KZpue0j9ACv": {
+      "assignedAt": 1757588320009,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1757588319495,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-17",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "mdApprovedAt": 1757588255064,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-OZsPlfu7QiZP_fj2BzC",
+      "requestType": "material",
+      "requiredQuantity": 10,
+      "status": "supplier_assigned",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 4000,
+      "unit": "kg",
+      "unitPrice": 400,
+      "updatedAt": 1757588320009
+    },
+    "-O_RSj3c8EgQJgTy2jyK": {
+      "assignedAt": 1758192924288,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1758192923777,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-19",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "mdApprovedAt": 1758192787074,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-O_RRKBthILz62Uegz-4",
+      "requestType": "material",
+      "requiredQuantity": 10,
+      "status": "supplier_assigned",
+      "supplierId": "sup001",
+      "supplierName": "ABC Supplies Ltd.",
+      "totalCost": 2000,
+      "unit": "kg",
+      "unitPrice": 200,
+      "updatedAt": 1758192924288
+    },
+    "-O_RSjRgUuhSFStpvDvA": {
+      "assignedAt": 1758192925825,
+      "assignedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "createdAt": 1758192925317,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "expectedDeliveryDate": "2025-09-20",
+      "materialId": "rm001",
+      "materialName": "Raw Material A",
+      "mdApprovedAt": 1758192787074,
+      "mdApprovedBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "notes": "",
+      "requestId": "-O_RRKBthILz62Uegz-4",
+      "requestType": "material",
+      "requiredQuantity": 90,
+      "status": "supplier_assigned",
+      "supplierId": "sup002",
+      "supplierName": "Global Chemicals Inc.",
+      "totalCost": 22500,
+      "unit": "kg",
+      "unitPrice": 250,
+      "updatedAt": 1758192925825
+    }
+  },
+  "rawMaterials": {
+    "rm001": {
+      "category": "Primary Ingredient",
+      "code": "RM001",
+      "createdAt": 1704067200000,
+      "currentStock": 472,
+      "lastUpdated": 1758195439326,
+      "location": "Warehouse A - Section 1",
+      "maxLevel": 500,
+      "name": "Raw Material A",
+      "pricePerUnit": 12.5,
+      "qualityGrade": "A",
+      "reorderLevel": 50,
+      "status": "active",
+      "supplier": "ABC Supplies Ltd.",
+      "unit": "kg",
+      "updatedAt": 1704153600000,
+      "updatedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1"
+    },
+    "rm002": {
+      "category": "Additive",
+      "code": "RM002",
+      "createdAt": 1704067200000,
+      "currentStock": 308,
+      "lastUpdated": 1758536552308,
+      "location": "Warehouse A - Section 2",
+      "maxLevel": 200,
+      "name": "Chemical B",
+      "pricePerUnit": 45,
+      "qualityGrade": "A",
+      "reorderLevel": 30,
+      "status": "active",
+      "supplier": "Global Chemicals Inc.",
+      "unit": "L",
+      "updatedAt": 1704153600000,
+      "updatedBy": "vYMCXCf59DMEDsG7BbQHdexPOK33"
+    },
+    "rm003": {
+      "category": "Secondary Ingredient",
+      "code": "RM003",
+      "createdAt": 1704067200000,
+      "currentStock": 194,
+      "lastQCDate": "2025-08-24",
+      "lastQCStatus": "accepted",
+      "lastUpdated": 1757088657249,
+      "location": "Warehouse A - Section 3",
+      "maxLevel": 300,
+      "name": "Additive C",
+      "pricePerUnit": 28.75,
+      "qualityGrade": "A",
+      "reorderLevel": 40,
+      "status": "active",
+      "supplier": "Premium Raw Materials",
+      "unit": "kg",
+      "updatedAt": 1704153600000,
+      "updatedBy": "5N98zjBWOfYoan2sZ4n932cWDgf1"
+    }
+  },
+  "salesActivities": {
+    "-OZmxU8kNt4rCqCGuO9y": {
+      "createdAt": 1757496603115,
+      "createdBy": "bolkj77UKgU6dDJg3IT45ZB83vg2",
+      "description": "Product request REQ-20250910-2841 submitted to HO for 1 items",
+      "id": "-OZmxU8kNt4rCqCGuO9y",
+      "relatedId": "REQ-20250910-2841",
+      "requestId": "REQ-20250910-2841",
+      "type": "request",
+      "userId": "bolkj77UKgU6dDJg3IT45ZB83vg2",
+      "userName": "directshop",
+      "userRole": "DirectShowroomManager"
+    }
+  },
+  "salesApprovalHistory": {
+    "-OaAdZY7Qw7H6-_vi_9q": {
+      "approvedAt": 1758984554824,
+      "approvedBy": "",
+      "approverName": "",
+      "approverRole": "Head of Operations",
+      "distributorId": "QtbR9bTgy5efwyRX5AGQAu8yJFG3",
+      "distributorName": "dist1",
+      "distributorRole": "Distributor",
+      "items": {
+        "prod001": {
+          "name": "M oil",
+          "qty": 1
+        }
+      },
+      "notes": "",
+      "priority": "urgent",
+      "requestId": "-O_nK6x6PLCRbsMf_cV7",
+      "status": "Approved",
+      "totalQuantity": 1,
+      "type": "distributor_sale"
+    },
+    "-OaAlJSDO6VRGjzRvFQ7": {
+      "approvedAt": 1758986586063,
+      "approvedBy": "",
+      "approverName": "",
+      "approverRole": "Head of Operations",
+      "distributorId": "yFiv4iOUIpNtKCCRK1iRmkvoge53",
+      "distributorName": "Direct Representative",
+      "distributorRole": "DirectRepresentative",
+      "items": {
+        "prod001": {
+          "name": "M oil",
+          "qty": 1
+        }
+      },
+      "notes": "",
+      "priority": "urgent",
+      "requestId": "DR_1758574011866_xf3vo4y4v",
+      "status": "Approved",
+      "totalQuantity": 1,
+      "type": "distributor_sale"
+    },
+    "-OaAlKMEZGBADqzbrM6r": {
+      "approvedAt": 1758986589776,
+      "approvedBy": "",
+      "approverName": "",
+      "approverRole": "Head of Operations",
+      "distributorId": "yFiv4iOUIpNtKCCRK1iRmkvoge53",
+      "distributorName": "Direct Representative",
+      "distributorRole": "DirectRepresentative",
+      "items": {
+        "prod001": {
+          "name": "M oil",
+          "qty": 1
+        }
+      },
+      "notes": "",
+      "priority": "urgent",
+      "requestId": "DR_1758574011866_xf3vo4y4v",
+      "status": "Approved",
+      "totalQuantity": 1,
+      "type": "distributor_sale"
+    },
+    "-OaAmABM3iYq9myyZZlv": {
+      "approvedAt": 1758986810264,
+      "approvedBy": "",
+      "approverName": "",
+      "approverRole": "Head of Operations",
+      "distributorId": "yFiv4iOUIpNtKCCRK1iRmkvoge53",
+      "distributorName": "Direct Representative",
+      "distributorRole": "DirectRepresentative",
+      "items": {
+        "prod001": {
+          "name": "M oil",
+          "qty": 1
+        }
+      },
+      "notes": "",
+      "priority": "urgent",
+      "requestId": "DR_1758574011866_xf3vo4y4v",
+      "status": "Approved",
+      "totalQuantity": 1,
+      "type": "distributor_sale"
+    },
+    "-OaAmoC5WeRNhD1H3-CH": {
+      "approvedAt": 1758986978253,
+      "approvedBy": "",
+      "approverName": "",
+      "approverRole": "Head of Operations",
+      "items": {
+        "prod001": {
+          "name": "M oil",
+          "qty": 1
+        }
+      },
+      "notes": "",
+      "priority": "urgent",
+      "requestId": "DR_1758574011866_xf3vo4y4v",
+      "requestType": "direct_representative",
+      "requesterId": "yFiv4iOUIpNtKCCRK1iRmkvoge53",
+      "requesterName": "Direct Representative",
+      "requesterRole": "DirectRepresentative",
+      "status": "Approved",
+      "totalQuantity": 1,
+      "type": "direct_rep_sale"
+    }
+  },
+  "stockMovements": {
+    "-OZIlGXxkhfX8O-bE78Z": {
+      "batchNumber": "GRN20250001",
+      "createdAt": 1756973308226,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "qualityGrade": "A",
+      "quantity": 100,
+      "reason": "GRN Approved - GRN20250001",
+      "supplierId": "sup001",
+      "type": "in",
+      "unitPrice": 100
+    },
+    "-OZIlwQZ50g73iluH6Mt": {
+      "batchNumber": "GRN20250002",
+      "createdAt": 1756973483878,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm002",
+      "materialType": "rawMaterial",
+      "qualityGrade": "A",
+      "quantity": 100,
+      "reason": "GRN Approved - GRN20250002",
+      "supplierId": "sup002",
+      "type": "in",
+      "unitPrice": 520
+    },
+    "-OZIlxu5b1wwUTlrZGX9": {
+      "batchNumber": "GRN20250002",
+      "createdAt": 1756973489928,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm002",
+      "materialType": "rawMaterial",
+      "qualityGrade": "A",
+      "quantity": 100,
+      "reason": "GRN Approved - GRN20250002",
+      "supplierId": "sup002",
+      "type": "in",
+      "unitPrice": 520
+    },
+    "-OZImTy_CJ6RbiaWaG8c": {
+      "batchNumber": "GRN20250003",
+      "createdAt": 1756973625383,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "pm002",
+      "materialType": "packingMaterial",
+      "qualityGrade": "A",
+      "quantity": 100,
+      "reason": "GRN Approved - GRN20250003",
+      "supplierId": "sup001",
+      "type": "in",
+      "unitPrice": 10
+    },
+    "-OZImWNGA5bzbJ44CV0b": {
+      "batchNumber": "GRN20250003",
+      "createdAt": 1756973635219,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "pm002",
+      "materialType": "packingMaterial",
+      "qualityGrade": "A",
+      "quantity": 100,
+      "reason": "GRN Approved - GRN20250003",
+      "supplierId": "sup001",
+      "type": "in",
+      "unitPrice": 10
+    },
+    "-OZOYB-6_Cy9Vp7Gnbev": {
+      "createdAt": 1757070278802,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "newStock": 234,
+      "previousStock": 250,
+      "quantity": 16,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-OZOYBAt3Y7-oPNv-OnA": {
+      "createdAt": 1757070279555,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm003",
+      "materialType": "rawMaterial",
+      "newStock": 197,
+      "previousStock": 201,
+      "quantity": 4,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-OZOYoc1KZyS6ql_UfO1": {
+      "createdAt": 1757070445197,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "newStock": 224,
+      "previousStock": 234,
+      "quantity": 10,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-OZPcb85ljKFXyC9rIWp": {
+      "createdAt": 1757088477903,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "newStock": 216,
+      "previousStock": 224,
+      "quantity": 8,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-OZPcbJlV6XAojWRmIve": {
+      "createdAt": 1757088478650,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm003",
+      "materialType": "rawMaterial",
+      "newStock": 195,
+      "previousStock": 197,
+      "quantity": 2,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-OZPdHndU9kTroy7dRwq": {
+      "createdAt": 1757088656754,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "newStock": 212,
+      "previousStock": 216,
+      "quantity": 4,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-OZPdHzGKlo9L-qVc64s": {
+      "createdAt": 1757088657498,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm003",
+      "materialType": "rawMaterial",
+      "newStock": 194,
+      "previousStock": 195,
+      "quantity": 1,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-O_RTnjstDycsLrTmaLF": {
+      "batchNumber": "GRN20250005",
+      "createdAt": 1758193205073,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "qualityGrade": "A",
+      "quantity": 90,
+      "reason": "GRN Approved - GRN20250005",
+      "supplierId": "sup002",
+      "type": "in",
+      "unitPrice": 250
+    },
+    "-O_RToF9vPuzT5-v5Alu": {
+      "batchNumber": "GRN20250005",
+      "createdAt": 1758193207139,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "quantity": 90,
+      "reason": "Invoice Created - GRN GRN20250005",
+      "reference": "GRN20250005",
+      "supplierId": "",
+      "type": "in"
+    },
+    "-O_RbLcc0BJTnvlU6l5w": {
+      "createdAt": 1758195439568,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "materialId": "rm001",
+      "materialType": "rawMaterial",
+      "newStock": 472,
+      "previousStock": 482,
+      "quantity": 10,
+      "reason": "production_dispatch",
+      "type": "out"
+    },
+    "-O_kwZktAnj7yt6Zdi0L": {
+      "createdAt": 1758536552554,
+      "createdBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "materialId": "rm002",
+      "materialType": "rawMaterial",
+      "newStock": 308,
+      "previousStock": 328,
+      "quantity": 20,
+      "reason": "production_dispatch",
+      "type": "out"
+    }
+  },
+  "suppliers": {
+    "sup001": {
+      "address": "123 Industrial Ave, City, State 12345",
+      "averageGradePoints": 4,
+      "contactPerson": "John Anderson",
+      "createdAt": 1704067200000,
+      "currentGrade": "A",
+      "email": "john@abcsupplies.com",
+      "lastDeliveryGrade": "A",
+      "lastGradeUpdate": 1756973637319,
+      "materials": [
+        "rm001",
+        "rm004"
+      ],
+      "name": "ABC Supplies Ltd.",
+      "phone": "+1-555-0101",
+      "rating": 4.5,
+      "status": "active",
+      "totalDeliveries": 1,
+      "updatedAt": 1756973637319
+    },
+    "sup002": {
+      "address": "456 Chemical Blvd, City, State 12346",
+      "averageGradePoints": 4,
+      "contactPerson": "Maria Rodriguez",
+      "createdAt": 1704067200000,
+      "currentGrade": "A",
+      "email": "maria@globalchem.com",
+      "lastDeliveryGrade": "A",
+      "lastGradeUpdate": 1758193208166,
+      "materials": [
+        "rm002"
+      ],
+      "name": "Global Chemicals Inc.",
+      "phone": "+1-555-0102",
+      "rating": 4.2,
+      "status": "active",
+      "totalDeliveries": 1,
+      "updatedAt": 1758193208166
+    },
+    "sup003": {
+      "address": "789 Package St, City, State 12347",
+      "averageGradePoints": 4,
+      "contactPerson": "David Kim",
+      "createdAt": 1704067200000,
+      "currentGrade": "A",
+      "email": "david@qualitypack.com",
+      "lastDeliveryGrade": "A",
+      "lastGradeUpdate": 1756970809522,
+      "materials": [
+        "pm001",
+        "pm004"
+      ],
+      "name": "Quality Packaging Solutions",
+      "phone": "+1-555-0103",
+      "rating": 4.7,
+      "status": "active",
+      "totalDeliveries": 1,
+      "updatedAt": 1756970809522
+    }
+  },
+  "users": {
+    "5N98zjBWOfYoan2sZ4n932cWDgf1": {
+      "createdAt": 1755623464870,
+      "createdBy": "5N98zjBWOfYoan2sZ4n932cWDgf1",
+      "department": "WarehouseOperations",
+      "email": "wr123@g.com",
+      "name": "wr",
+      "role": "WarehouseStaff",
+      "status": "active"
+    },
+    "BmSlQIhtS4glKvEq1WupVzaLt8p1": {
+      "createdAt": 1755781421836,
+      "createdBy": "BmSlQIhtS4glKvEq1WupVzaLt8p1",
+      "department": "MainDirector",
+      "email": "md1@detz.com",
+      "name": "MD1",
+      "role": "MainDirector",
+      "status": "active"
+    },
+    "DeDtclFo9aazi65eR8K6ybD9QAq1": {
+      "createdAt": 1756984201831,
+      "createdBy": "DeDtclFo9aazi65eR8K6ybD9QAq1",
+      "department": "Production",
+      "email": "prod@detz.com",
+      "name": "productionM",
+      "role": "ProductionManager",
+      "status": "active"
+    },
+    "J0xcMQTTAsRUDVAjlfLrhjJfQTD3": {
+      "createdAt": 1758570655768,
+      "createdBy": "J0xcMQTTAsRUDVAjlfLrhjJfQTD3",
+      "department": "Sales",
+      "distributorId": "QtbR9bTgy5efwyRX5AGQAu8yJFG3",
+      "email": "disref@detz.com",
+      "name": "Distributor Representatives",
+      "role": "DistributorRepresentative",
+      "status": "active",
+      "updatedAt": 1758575259157,
+      "updatedBy": "RuhRIL2z1bafugeKYWyDhlOQm0T2"
+    },
+    "QtbR9bTgy5efwyRX5AGQAu8yJFG3": {
+      "createdAt": 1758545202527,
+      "createdBy": "QtbR9bTgy5efwyRX5AGQAu8yJFG3",
+      "department": "Sales",
+      "email": "dist1@detz.com",
+      "name": "dist1",
+      "role": "Distributor",
+      "status": "active"
+    },
+    "RuhRIL2z1bafugeKYWyDhlOQm0T2": {
+      "createdAt": 1757197617261,
+      "createdBy": "RuhRIL2z1bafugeKYWyDhlOQm0T2",
+      "department": "Admin",
+      "email": "admin@detz.com",
+      "name": "System Administrator",
+      "role": "Admin",
+      "status": "active"
+    },
+    "YwLQfqSBFmPkVrQUzdADRQpmmvi1": {
+      "createdAt": 1757197677032,
+      "createdBy": "YwLQfqSBFmPkVrQUzdADRQpmmvi1",
+      "department": "FinishedGoodsStore",
+      "email": "fg@detz.com",
+      "name": "FG",
+      "role": "FinishedGoodsStoreManager",
+      "status": "active"
+    },
+    "bolkj77UKgU6dDJg3IT45ZB83vg2": {
+      "createdAt": 1757420791025,
+      "createdBy": "bolkj77UKgU6dDJg3IT45ZB83vg2",
+      "department": "Sales",
+      "email": "dsm@detz.com",
+      "name": "directshop",
+      "role": "DirectShowroomManager",
+      "status": "active"
+    },
+    "m4AKcaFTUGVUkekm1JGbf2jIWki2": {
+      "createdAt": 1757109999110,
+      "createdBy": "m4AKcaFTUGVUkekm1JGbf2jIWki2",
+      "department": "PackingMaterialsStore",
+      "email": "pack@detz.com",
+      "name": "pack",
+      "role": "PackingMaterialsStoreManager",
+      "status": "active"
+    },
+    "t4QTQyvpAEN0f2DpPnI0F9TOvUk2": {
+      "createdAt": 1755623367707,
+      "createdBy": "t4QTQyvpAEN0f2DpPnI0F9TOvUk2",
+      "department": "Admin",
+      "email": "nirodranasinghe@detzglobal.com",
+      "name": "detz",
+      "role": "Admin",
+      "status": "active"
+    },
+    "uid_admin01": {
+      "createdAt": 1704067200000,
+      "createdBy": "system",
+      "department": "Admin",
+      "email": "admin@example.com",
+      "lastLogin": 1704153600000,
+      "name": "System Administrator",
+      "role": "Admin",
+      "status": "active",
+      "totalSessions": 45
+    },
+    "uid_dataentry01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "DataEntry",
+      "email": "dataentry@example.com",
+      "lastLogin": 1704149000000,
+      "name": "Robert Entry",
+      "passwordResetAt": 1755623314842,
+      "passwordResetBy": "udCs753Mdef11zuqahjrV5yzTSP2",
+      "role": "DataEntry",
+      "status": "active",
+      "totalSessions": 89
+    },
+    "uid_fgstore01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "FinishedGoodsStore",
+      "email": "fgstore@example.com",
+      "lastLogin": 1704146000000,
+      "name": "Lisa Goods",
+      "role": "FinishedGoodsStoreManager",
+      "status": "active",
+      "totalSessions": 38
+    },
+    "uid_ho01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "HeadOfOperations",
+      "email": "ho@example.com",
+      "lastLogin": 1704145000000,
+      "name": "Sarah Johnson",
+      "role": "HeadOfOperations",
+      "status": "active",
+      "totalSessions": 34
+    },
+    "uid_md01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "MainDirector",
+      "email": "md@example.com",
+      "lastLogin": 1704142000000,
+      "name": "Michael Director",
+      "role": "MainDirector",
+      "status": "active",
+      "totalSessions": 28
+    },
+    "uid_packstore01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "PackingMaterialsStore",
+      "email": "packstore@example.com",
+      "lastLogin": 1704147000000,
+      "name": "David Pack",
+      "role": "PackingMaterialsStoreManager",
+      "status": "active",
+      "totalSessions": 41
+    },
+    "uid_production01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "Production",
+      "email": "production@example.com",
+      "lastLogin": 1704148000000,
+      "name": "Emily Production",
+      "passwordResetAt": 1755623326187,
+      "passwordResetBy": "udCs753Mdef11zuqahjrV5yzTSP2",
+      "role": "ProductionManager",
+      "status": "active",
+      "totalSessions": 52
+    },
+    "uid_readonly01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "Admin",
+      "email": "readonly@example.com",
+      "lastLogin": 1704140000000,
+      "name": "Read Only Admin",
+      "role": "ReadOnlyAdmin",
+      "status": "active",
+      "totalSessions": 23
+    },
+    "uid_warehouse01": {
+      "createdAt": 1704067200000,
+      "createdBy": "uid_admin01",
+      "department": "WarehouseOperations",
+      "email": "whstaff@example.com",
+      "lastLogin": 1704150000000,
+      "name": "John Smith",
+      "role": "WarehouseStaff",
+      "status": "active",
+      "totalSessions": 67
+    },
+    "vYMCXCf59DMEDsG7BbQHdexPOK33": {
+      "createdAt": 1755694015446,
+      "createdBy": "vYMCXCf59DMEDsG7BbQHdexPOK33",
+      "department": "HeadOfOperations",
+      "email": "HO1@detz.com",
+      "name": "HO1",
+      "role": "HeadOfOperations",
+      "status": "active"
+    },
+    "w8xievPCthWx6DjIUsTwyVfTRD62": {
+      "createdAt": 1757139834319,
+      "createdBy": "w8xievPCthWx6DjIUsTwyVfTRD62",
+      "department": "PackingArea",
+      "email": "pk2@gmail.com",
+      "name": "pk2",
+      "role": "PackingAreaManager",
+      "status": "active"
+    },
+    "yFiv4iOUIpNtKCCRK1iRmkvoge53": {
+      "createdAt": 1758569396294,
+      "createdBy": "yFiv4iOUIpNtKCCRK1iRmkvoge53",
+      "department": "Sales",
+      "email": "drp@detz.com",
+      "name": "Direct Representative",
+      "role": "DirectRepresentative",
+      "status": "active",
+      "updatedAt": 1758574737073,
+      "updatedBy": "RuhRIL2z1bafugeKYWyDhlOQm0T2"
+    }
+  }
+}
