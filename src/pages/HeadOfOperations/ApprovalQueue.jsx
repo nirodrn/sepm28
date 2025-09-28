@@ -5,6 +5,8 @@ import { requestService } from '../../services/requestService';
 import { packingMaterialRequestService } from '../../services/packingMaterialRequestService';
 import { subscribeToData } from '../../firebase/db';
 import { useRole } from '../../hooks/useRole';
+import { useAuth } from '../../hooks/useAuth';
+import { auth } from '../../firebase/auth';
 import { 
   getDistributorRequests, 
   approveRequest, 
@@ -16,6 +18,7 @@ import LoadingSpinner from '../../components/Common/LoadingSpinner';
 const ApprovalQueue = () => {
   const navigate = useNavigate();
   const { userRole, hasRole } = useRole();
+  const { user } = useAuth();
   const [showRejectModal, setShowRejectModal] = useState(false);
   const [selectedRequestId, setSelectedRequestId] = useState(null);
   const [selectedRequestType, setSelectedRequestType] = useState('');
@@ -237,8 +240,8 @@ const ApprovalQueue = () => {
       // Add approver information to the request
       const requestWithApprover = {
         ...request,
-        approvedBy: userRole?.uid || auth.currentUser?.uid,
-        approverName: userRole?.name || auth.currentUser?.displayName || auth.currentUser?.email,
+        approvedBy: user?.uid || auth.currentUser?.uid,
+        approverName: userRole?.name || user?.displayName || user?.email || auth.currentUser?.displayName || auth.currentUser?.email,
         approverRole: hasRole('MainDirector') ? 'Main Director' : 'Head of Operations'
       };
       
