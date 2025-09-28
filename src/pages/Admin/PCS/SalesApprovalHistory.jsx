@@ -136,7 +136,10 @@ const SalesApprovalHistory = () => {
                     Approved By
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    FG Completion
+                    FG Status
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Completion Date
                   </th>
                 </tr>
               </thead>
@@ -184,20 +187,29 @@ const SalesApprovalHistory = () => {
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       {record.isCompletedByFG ? (
-                        <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                          Completed
-                        </span>
+                        <div>
+                          <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                            Completed
+                          </span>
+                          <div className="text-xs text-gray-500 mt-1">
+                            By: {record.sentByName}
+                          </div>
+                        </div>
                       ) : (
                         <span className="px-2 py-1 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-yellow-800">
-                          Pending
+                          Pending FG
                         </span>
                       )}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                      {record.completedByFGAt ? formatDate(record.completedByFGAt) : 
+                       record.sentAt ? formatDate(record.sentAt) : '-'}
                     </td>
                   </tr>
                 ))}
                 {filteredHistory.length === 0 && (
                   <tr>
-                    <td colSpan={7} className="px-6 py-8 text-center text-gray-500">
+                    <td colSpan={8} className="px-6 py-8 text-center text-gray-500">
                       No approval history found
                     </td>
                   </tr>

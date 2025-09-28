@@ -237,8 +237,8 @@ const ApprovalQueue = () => {
       // Add approver information to the request
       const requestWithApprover = {
         ...request,
-        approvedBy: userRole.userId,
-        approverName: userRole.userName,
+        approvedBy: userRole?.uid || auth.currentUser?.uid,
+        approverName: userRole?.name || auth.currentUser?.displayName || auth.currentUser?.email,
         approverRole: hasRole('MainDirector') ? 'Main Director' : 'Head of Operations'
       };
       

@@ -158,6 +158,9 @@ export const fgDispatchToExternalService = {
         status: 'dispatched',
         dispatchId: dispatchId,
         dispatchedAt: Date.now(),
+        sentAt: Date.now(),
+        sentBy: currentUser?.uid,
+        sentByName: currentUser?.displayName || currentUser?.email || 'FG Store Manager',
         releaseCode: releaseCode,
         updatedAt: Date.now()
       });
@@ -165,9 +168,52 @@ export const fgDispatchToExternalService = {
       // Notify mobile app
       await this.notifyMobileApp(dispatchId, dispatch);
       
+      // Notify HO about completion
+      await this.notifyHeadOfOperationsCompletion(requestId, dispatch);
+      
+      // Mark the sales approval history as sent if this was from a sales request
+      if (dispatchData.fromSalesRequest) {
+        const { fgDispatchService } = await import('./fgDispatchService');
+        await fgDispatchService.markSalesRequestAsSent(dispatchData.salesRequestId);
+      }
+      
       return { dispatchId, ...dispatch };
     } catch (error) {
       throw new Error(`Failed to dispatch direct shop request: ${error.message}`);
+    }
+  },
+
+  // Notify HO when direct shop request is completed
+  async notifyHeadOfOperationsCompletion(requestId, dispatchData) {
+    try {
+      const notification = {
+        type: 'direct_shop_request_completed',
+        requestId,
+        message: `Direct shop request completed: ${dispatchData.shopName} received ${dispatchData.items?.[0]?.productName}`,
+        data: { 
+          requestType: 'direct_shop_completion',
+          shopName: dispatchData.shopName,
+          releaseCode: dispatchData.releaseCode,
+          completedAt: Date.now(),
+          totalItems: dispatchData.items?.length || 0
+        },
+        status: 'unread',
+        createdAt: Date.now()
+      };
+      
+      // Get HO users
+      const users = await getData('users');
+      if (users) {
+        const hoUsers = Object.entries(users)
+          .filter(([_, user]) => user.role === 'HeadOfOperations')
+          .map(([uid, _]) => uid);
+        
+        for (const hoId of hoUsers) {
+          await pushData(`notifications/${hoId}`, notification);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to notify HO of direct shop completion:', error);
     }
   },
   // Record dispatch tracking by recipient type and role
@@ -444,6 +490,23 @@ export const fgDispatchToExternalService = {
       return filteredDispatches.sort((a, b) => b.dispatchedAt - a.dispatchedAt);
     } catch (error) {
       throw new Error(`Failed to fetch external dispatches: ${error.message}`);
+    }
+  },
+
+  // Get pending sales requests that need to be dispatched
+  async getPendingSalesRequests() {
+    try {
+      const salesHistory = await getData('salesApprovalHistory');
+      if (!salesHistory) return [];
+      
+      // Filter approved requests that haven't been completed by FG yet
+      const pendingRequests = Object.entries(salesHistory)
+        .filter(([_, request]) => request.status === 'Approved' && !request.isCompletedByFG)
+        .map(([id, request]) => ({ id, ...request }));
+      
+      return pendingRequests.sort((a, b) => b.approvedAt - a.approvedAt);
+    } catch (error) {
+      throw new Error(`Failed to fetch pending sales requests: ${error.message}`);
     }
   },
 

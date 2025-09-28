@@ -1,6 +1,7 @@
 import { ref, get, update, push } from 'firebase/database';
 import { getDatabase } from 'firebase/database';
 import { app } from '../firebase/firebaseConfig';
+import { auth } from '../firebase/auth';
 
 const database = getDatabase(app);
 
@@ -93,6 +94,10 @@ export const approveRequest = async (requestId, requestData) => {
     const updates = {};
     updates[`/${requestPath}/${requestId}/status`] = 'Approved';
     updates[`/${requestPath}/${requestId}/updatedAt`] = Date.now();
+    updates[`/${requestPath}/${requestId}/approvedAt`] = Date.now();
+    updates[`/${requestPath}/${requestId}/approvedBy`] = requestData.approvedBy || '';
+    updates[`/${requestPath}/${requestId}/approverName`] = requestData.approverName || '';
+    updates[`/${requestPath}/${requestId}/approverRole`] = requestData.approverRole || '';
 
     // Add to approval history with detailed information
     const historyData = {
@@ -114,7 +119,10 @@ export const approveRequest = async (requestId, requestData) => {
       totalQuantity: Object.values(requestData.items).reduce((sum, item) => sum + item.qty, 0),
       type: requestData.requestedByRole === 'DirectShop' ? 'direct_shop_sale' :
             requestData.requestedByRole === 'DirectRepresentative' ? 'direct_rep_sale' :
-            'distributor_sale'
+            'distributor_sale',
+      isDispatched: false,
+      isCompletedByFG: false,
+      shopName: requestData.shopName || requestData.requestedByName
     };
 
     const historyRef = ref(database, 'salesApprovalHistory');
@@ -122,6 +130,10 @@ export const approveRequest = async (requestId, requestData) => {
     updates[`/salesApprovalHistory/${newHistoryRef.key}`] = historyData;
 
     await update(ref(database), updates);
+    
+    // Notify FG Store about new approved request
+    await notifyFGStoreOfApprovedRequest(newHistoryRef.key, historyData);
+    
     return true;
   } catch (error) {
     console.error('Error approving distributor request:', error);
@@ -129,6 +141,45 @@ export const approveRequest = async (requestId, requestData) => {
   }
 };
 
+// Notify FG Store about approved requests
+const notifyFGStoreOfApprovedRequest = async (requestId, requestData) => {
+  try {
+    const notification = {
+      type: 'approved_sales_request',
+      requestId,
+      message: `New approved sales request ready for dispatch: ${requestData.requesterName}`,
+      data: { 
+        requestType: 'approved_sales',
+        requesterName: requestData.requesterName,
+        requesterRole: requestData.requesterRole,
+        totalItems: Object.keys(requestData.items).length,
+        totalQuantity: requestData.totalQuantity,
+        priority: requestData.priority
+      },
+      status: 'unread',
+      createdAt: Date.now()
+    };
+    
+    // Get FG Store users
+    const usersRef = ref(database, 'users');
+    const usersSnapshot = await get(usersRef);
+    if (usersSnapshot.exists()) {
+      const users = usersSnapshot.val();
+      const fgUsers = Object.entries(users)
+        .filter(([_, user]) => user.role === 'FinishedGoodsStoreManager')
+        .map(([uid, _]) => uid);
+      
+      for (const fgId of fgUsers) {
+        const notificationRef = push(ref(database, `notifications/${fgId}`));
+        await update(ref(database), {
+          [`/notifications/${fgId}/${notificationRef.key}`]: notification
+        });
+      }
+    }
+  } catch (error) {
+    console.error('Failed to notify FG store:', error);
+  }
+};
 export const rejectRequest = async (requestId, requestData) => {
   try {
     // Determine request path based on request type

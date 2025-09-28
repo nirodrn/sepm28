@@ -127,6 +127,7 @@ import ProductPricing from './pages/FinishedGoodsStore/ProductPricing';
 import ExternalDispatches from './pages/FinishedGoodsStore/ExternalDispatches';
 import PriceHistory from './pages/FinishedGoodsStore/PriceHistory';
 import ApprovedSalesRequests from './pages/FinishedGoodsStore/ApprovedSalesRequests';
+import DispatchTracking from './pages/FinishedGoodsStore/DispatchTracking';
 
 // Raw Material Request Pages
 import RawMaterialRequestList from './pages/WarehouseOperations/RawMaterials/RequestList';
@@ -433,6 +434,7 @@ function App() {
                   <Route path="/finished-goods/pricing" element={<ProtectedRoute pagePath="/finished-goods/pricing"><ProductPricing /></ProtectedRoute>} />
                   <Route path="/finished-goods/external-dispatches" element={<ProtectedRoute pagePath="/finished-goods/external-dispatches"><ExternalDispatches /></ProtectedRoute>} />
                   <Route path="/finished-goods/price-history" element={<ProtectedRoute pagePath="/finished-goods/price-history"><PriceHistory /></ProtectedRoute>} />
+                  <Route path="/finished-goods/dispatch-tracking" element={<ProtectedRoute pagePath="/finished-goods/dispatch-tracking"><DispatchTracking /></ProtectedRoute>} />
                   <Route path="/finished-goods/approved-sales" element={<ProtectedRoute pagePath="/finished-goods/approved-sales"><ApprovedSalesRequests /></ProtectedRoute>} />
                   
                   {/* Packing Materials Store Routes - accessible via PCS permissions */}

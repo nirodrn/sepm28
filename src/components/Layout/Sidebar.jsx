@@ -2,11 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useRole } from '../../hooks/useRole';
 import { usePermissions } from '../../hooks/usePermissions';
-import {
-  Home, Users, Package, TruckIcon, FileText, BarChart3,
-  Settings, ShoppingCart, Clipboard, Archive, Factory, Package2, Send,
-  Eye, Database, Receipt, CheckCircle, Clock, TrendingUp, Crown, ClipboardCheck, Plus, Warehouse, MapPin, Shield, Smartphone, DollarSign, AlertTriangle
-} from 'lucide-react';
+import { Home, Users, Package, Truck as TruckIcon, FileText, BarChart3, Settings, ShoppingCart, Clipboard, Archive, Factory, Package2, Send, Eye, Database, Receipt, CheckCircle, Clock, TrendingUp, Crown, ClipboardCheck, Plus, Warehouse, MapPin, Shield, Smartphone, DollarSign, AlertTriangle } from 'lucide-react';
 
 const Sidebar = () => {
   const { userRole, hasRole } = useRole();
@@ -150,6 +146,7 @@ const Sidebar = () => {
       '/finished-goods/price-history': Clock,
       '/finished-goods/dispatch-tracking': TrendingUp,
       '/finished-goods/recipient-analytics': BarChart3,
+      '/finished-goods/approved-sales': CheckCircle,
       '/finished-goods/mobile-requests': Smartphone,
       '/finished-goods/stock-movements': TrendingUp,
       '/finished-goods/expiry-management': AlertTriangle,

@@ -422,12 +422,80 @@ export const fgDispatchService = {
       await updateData(`salesApprovalHistory/${requestId}`, {
         isCompletedByFG: true,
         completedByFGAt: Date.now(),
+        status: 'Sent',
+        sentAt: Date.now(),
+        sentBy: currentUser?.uid,
+        sentByName: currentUser?.displayName || currentUser?.email || 'FG Store Manager',
         updatedAt: Date.now()
       });
+
+      // Notify HO about completion
+      await this.notifyHeadOfOperationsCompletion(requestId);
 
       return true;
     } catch (error) {
       throw new Error(`Failed to mark request as sent: ${error.message}`);
+    }
+  },
+
+  // Mark sales request as sent to external recipient
+  async markSalesRequestAsSent(requestId) {
+    try {
+      const currentUser = auth.currentUser;
+
+      // Update salesApprovalHistory to mark as completed by FG
+      await updateData(`salesApprovalHistory/${requestId}`, {
+        isCompletedByFG: true,
+        completedByFGAt: Date.now(),
+        status: 'Sent',
+        sentAt: Date.now(),
+        sentBy: currentUser?.uid,
+        sentByName: currentUser?.displayName || currentUser?.email || 'FG Store Manager',
+        updatedAt: Date.now()
+      });
+
+      // Notify HO about completion
+      await this.notifyHeadOfOperationsCompletion(requestId);
+
+      return true;
+    } catch (error) {
+      throw new Error(`Failed to mark sales request as sent: ${error.message}`);
+    }
+  },
+  // Notify HO when FG completes a sales request
+  async notifyHeadOfOperationsCompletion(requestId) {
+    try {
+      const request = await getData(`salesApprovalHistory/${requestId}`);
+      if (!request) return;
+      
+      const notification = {
+        type: 'sales_request_completed',
+        requestId,
+        message: `Sales request completed by FG Store: ${request.requesterName} (${request.requestType})`,
+        data: { 
+          requestType: 'sales_completion',
+          requesterName: request.requesterName,
+          requesterRole: request.requesterRole,
+          completedAt: Date.now(),
+          totalItems: Object.keys(request.items).length
+        },
+        status: 'unread',
+        createdAt: Date.now()
+      };
+      
+      // Get HO users
+      const users = await getData('users');
+      if (users) {
+        const hoUsers = Object.entries(users)
+          .filter(([_, user]) => user.role === 'HeadOfOperations')
+          .map(([uid, _]) => uid);
+        
+        for (const hoId of hoUsers) {
+          await pushData(`notifications/${hoId}`, notification);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to notify HO of completion:', error);
     }
   },
 

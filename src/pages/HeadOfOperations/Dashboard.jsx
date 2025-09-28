@@ -15,7 +15,7 @@ import {
   Factory,
   Smartphone
 } from 'lucide-react';
-import { subscribeToData } from '../../firebase/db';
+import { subscribeToData, getData } from '../../firebase/db';
 import { requestService } from '../../services/requestService';
 import { packingMaterialRequestService } from '../../services/packingMaterialRequestService';
 import { directShopService } from '../../services/directShopService';
@@ -66,7 +66,8 @@ const HeadOfOperationsDashboard = () => {
         allMaterialRequests,
         allPackingMaterialRequests,
         allDirectShopRequests,
-        suppliers
+        suppliers,
+        salesApprovalHistory
       ] = await Promise.all([
         requestService.getMaterialRequests().catch((err) => {
           console.warn('Failed to load material requests:', err.message);
@@ -80,7 +81,8 @@ const HeadOfOperationsDashboard = () => {
           console.warn('Failed to load direct shop requests:', err.message);
           return [];
         }),
-        supplierService.getSuppliers().catch(() => [])
+        supplierService.getSuppliers().catch(() => []),
+        getData('salesApprovalHistory').catch(() => null)
       ]);
 
       // Calculate stats
@@ -95,13 +97,20 @@ const HeadOfOperationsDashboard = () => {
         ['ho_rejected', 'md_rejected'].includes(req.status)
       ).length + allPackingMaterialRequests.filter(req => req.status === 'rejected').length;
 
+      // Calculate sales completion stats
+      const salesRequests = salesApprovalHistory ? Object.values(salesApprovalHistory) : [];
+      const completedSalesRequests = salesRequests.filter(req => req.isCompletedByFG).length;
+      const pendingSalesRequests = salesRequests.filter(req => req.status === 'Approved' && !req.isCompletedByFG).length;
+
       setDashboardData({
         pendingMaterialRequests: pendingMaterialCount,
         pendingPackingMaterialRequests: pendingPackingMaterialCount,
         pendingDirectShopRequests: pendingDirectShopCount,
         forwardedToMD: forwardedToMDCount,
         totalApproved,
-        totalRejected
+        totalRejected,
+        completedSalesRequests,
+        pendingSalesRequests
       });
 
       // Get pending requests for quick approval
@@ -396,6 +405,13 @@ const HeadOfOperationsDashboard = () => {
         >
           <Smartphone className="w-5 h-5 mr-2" />
           Direct Shop Requests ({dashboardData.pendingDirectShopRequests || 0})
+        </button>
+        <button
+          onClick={() => navigate('/admin/pcs/sales-history')}
+          className="flex items-center justify-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+        >
+          <CheckCircle className="w-5 h-5 mr-2" />
+          Sales Completion ({dashboardData.completedSalesRequests || 0} completed)
         </button>
       </div>
     </div>

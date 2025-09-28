@@ -151,6 +151,13 @@ export default function FinishedGoodsStoreDashboard() {
       icon: Send,
       color: 'bg-teal-600 hover:bg-teal-700',
       path: '/finished-goods/external-dispatches'
+    },
+    {
+      title: 'Approved Sales',
+      description: 'Send approved sales requests',
+      icon: CheckCircle,
+      color: 'bg-emerald-600 hover:bg-emerald-700',
+      path: '/finished-goods/approved-sales'
     }
   ];
 
